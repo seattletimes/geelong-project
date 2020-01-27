@@ -1,0 +1,22 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "projects-staging.seattletimes.com",
+      "path": "careless-goldenbush"
+    },
+    "live": {
+      "bucket": "projects.seattletimes.com",
+      "path": ""
+    }
+  },
+  "title": "",
+  "description": "",
+  "author": "",
+  "url": "",
+  "post_id": 0,
+  "image": "assets/social.jpg",
+  "sheets": [],
+  "docs": ["1NQfFJ06tIun1O1djWmA1kuG32iImpd6YD4GgcElfsMQ"],
+  "embedded": true,
+  "production": false
+}
