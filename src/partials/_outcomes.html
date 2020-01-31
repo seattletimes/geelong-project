@@ -1,1 +1,70 @@
-<h3>OUTCOMES GRAPHIC</h3>
+<%
+	var d3 = Object.assign({}, require("d3-scale"), require("d3-array"));
+	
+	var homelessness_data = json["outcomes-homelessness"],
+		dropouts_data = json["outcomes-dropouts"];
+
+	var height = 300,
+		width = 500,
+		margin = {top: 30, bottom: 10, left: 10, right: 10},
+		homelessness_cat = ["3 Pilot Schools", "Other 9 Schools"],
+		homelessness_color = d3.scaleOrdinal()
+			.domain(homelessness_cat)
+			.range(["blue", "#cccccc"]),
+		homelesness_x = d3.scaleBand()
+			.domain(homelessness_data.map(d => d.Year))
+			.range([0, width - margin.left - margin.right])
+			.paddingInner(0.2),
+		homelessness_y = d3.scaleLinear()
+			.range([0, height - margin.top - margin.bottom])
+			.domain([0, d3.max(homelessness_data, d => d["Other 9 Schools"])]),
+		dropouts_x = d3.scaleBand()
+			.domain(dropouts_data.map(d => d.year))
+			.range([0, width - margin.left - margin.right])
+			.paddingInner(0.2),
+		dropouts_y = d3.scaleLinear()
+			.range([0, height - margin.top - margin.bottom])
+			.domain([0, d3.max(dropouts_data, d => d["12–18 yrs"])]);
+%>
+
+<h3 class="graphic-hed">Outcomes of The Geelong Project</h3>
+
+<div class="flexbox">
+<div>
+	<p class="graphic-text">12- to 18-year-olds entering the homeless system</p>
+	<div class="legend">
+		<span class="legend__box" fill="#cccccc"></span>
+		<span class="graphic-text" x="15" y="15">3 Pilot Schools</span>
+		<span class="legend__box" fill="#333333"></span>
+		<span class="graphic-text" x="165" y="15">Other 9 Schools</span>
+	</div>
+	<svg id="outcomes-homelessness-graphic" width="<%= width %>" height="<%= height %>">
+	  <g transform="translate(<%= margin.left %>, <%= margin.top %>)">
+			<% homelessness_data.forEach(function(d) { %>
+		    <g>
+<!-- 		    	<% homelessness_cat.forEach(function(d, i) { %>
+		    		<rect width="<%= homelesness_x.bandwidth() / homelessness_cat.length %>" height="homelessness_y()"></rect>
+			    <% }) %> -->
+		    	<rect width="<%= homelesness_x.bandwidth() / 2 %>" height="<%= homelessness_y(d['3 Pilot Schools']) %>" x="<%= homelesness_x(d.Year) %>" y="<%= height - homelessness_y(d['3 Pilot Schools']) %>" fill="blue"></rect>
+		    	<rect width="<%= homelesness_x.bandwidth() / 2 %>" height="<%= homelessness_y(d['Other 9 Schools']) %>" x="<%= homelesness_x(d.Year) + homelesness_x.bandwidth() / 2 %>" y="<%= height - homelessness_y(d['Other 9 Schools']) %>" fill="#333333"></rect>
+		    </g>
+			<% }) %>
+		</g>
+	</svg>
+</div>
+
+<div>
+	<p class="graphic-text">Number of dropouts</p>
+	<svg id="outcomes-homelessness-graphic" width="<%= width %>" height="<%= height %>">
+	  <g transform="translate(<%= margin.left %>, <%= margin.top %>)">
+			<% dropouts_data.forEach(function(d) { %>
+		    <g>
+		    	<rect width="<%= dropouts_x.bandwidth() / 3 %>" height="<%= dropouts_y(d['12–18 yrs']) %>" x="<%= dropouts_x(d.year) %>" y="<%= height - dropouts_y(d['12–18 yrs']) %>" fill="blue"></rect>
+		    	<rect width="<%= dropouts_x.bandwidth() / 3 %>" height="<%= dropouts_y(d['19–20 yrs']) %>" x="<%= dropouts_x(d.year) + dropouts_x.bandwidth() / 3 %>" y="<%= height - dropouts_y(d['19–20 yrs']) %>" fill="#333333"></rect>
+		    	<rect width="<%= dropouts_x.bandwidth() / 3 %>" height="<%= dropouts_y(d['21–24 yrs']) %>" x="<%= dropouts_x(d.year) + dropouts_x.bandwidth() * 2 / 3 %>" y="<%= height - dropouts_y(d['21–24 yrs']) %>" fill="#cccccc"></rect>
+		    </g>
+			<% }) %>
+		</g>
+	</svg>
+</div>
+</div>

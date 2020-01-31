@@ -1,6 +1,6 @@
 intro_file: topvideo_LOOP.mp4
 
-h1: Geelong Project Hed
+h1: From Crisis to Prevention
 h2: Dek
 byline: By Neal Morton
 
@@ -33,6 +33,10 @@ On one side, she said, are kids still in school, with families. But students who
 
 The simplicity is deceptive -- especially given the urgency of addressing homelessness back home.
 []
+
+{.figure}
+BRIGHTCOVE VIDEO: 6126973456001
+{}
 
 h3: ‘Not a quick fix’
 
@@ -91,8 +95,6 @@ The group pivoted to a community coalition, one that connects schools and “ups
 After students take the survey, a team from a local youth agency interviews them through a universal screener, scores each response and ranks them on three tiers of risk.
 
 The lowest level includes infrequent check-ins and group sessions on bullying, domestic violence and self-esteem. Students at the top tier get paired with workers like Hodgson, who meet them weekly and find the existing services -- rental assistance, therapy, tutors -- that will keep them off the streets and in school.
-
-VIDEO LOOP OF GROUP SESSION
 
 “It’s a bespoke response to your individual need,” said Northern Bay principal Ken Massari, who welcomed the Geelong Project to his campus six years ago. Now, he said, “young people only need to tell their story once.”
 

@@ -2,6 +2,7 @@ var paywall = require("./lib/paywall");
 setTimeout(() => paywall(12345678), 5000);
 
 require("waypoints/lib/noframework.waypoints.min");
+var d3 = require("d3");
 
 // once user has scrolled to beginning of story, fade out hero looper
 var beginning = document.querySelector("#beginning"),

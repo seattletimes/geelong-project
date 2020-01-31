@@ -27,7 +27,6 @@
 
       <h2 id="beginning"><%= doc.h2 %></h2>
       <p class="byline"><%= doc.byline %></p>
-
       <% doc.sections.forEach(function(s) { %>
         <% if (s.type === "text") { %>
           <% s.value.forEach(function(p) { %>
@@ -43,6 +42,7 @@
       <%= t.include("partials/_navBottom.html") %>
 
     <script src="app.js" async></script>
+
     <% if (json.project.production) { %>
     <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
     <%= t.include("partials/_workHere.html") %>
