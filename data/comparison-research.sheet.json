@@ -1,0 +1,88 @@
+[
+  {
+    "": "",
+    "Geelong": "278,929 people in SA4 (2016)",
+    "Data source (Geelong)\n": "https://quickstats.censusdata.abs.gov.au/census_services/getproduct/census/2016/quickstat/203?opendocument",
+    "King County": "2,044,449 people",
+    "Data source (King County)": "",
+    "Notes": "Where I got definition of \"affordable\" housing: "
+  },
+  {
+    "": "\n",
+    "Geelong": "47 people per 10,000 experiencing homelessness",
+    "Data source (Geelong)\n": "https://chp.org.au/wp-content/uploads/2018/09/Geelong-Electorate-Profile.pdf",
+    "King County": "11119 (point in time count)",
+    "Data source (King County)": "https://www.seattletimes.com/seattle-news/homeless/steep-drop-in-king-countys-homeless-youth-annual-homeless-count-shows/",
+    "Notes": "The Rental Report September quarter 2019 (Word, 2.91 MB) from here https://www.dhhs.vic.gov.au/publications/rental-report"
+  },
+  {
+    "": "Youth homelessness",
+    "Geelong": "",
+    "Data source (Geelong)\n": "Need to ask BCYF",
+    "King County": "9,845 (3.2%) of students experience homelessness in the 2017-18 school year",
+    "Data source (King County)": "https://schoolhousewa.org/data/dashboards/local-data-and-outcomes/"
+  },
+  {
+    "": "",
+    "Geelong": "5.3% in Geelong SA4 (Sept. 2019)",
+    "Data source (Geelong)\n": "https://www.geelongaustralia.com.au/business/statistics/article/item/8d01ea2f399573d.aspx",
+    "King County": "2.3% unemployment (Nov. 2019)",
+    "Data source (King County)": "https://fred.stlouisfed.org/series/WAKING5URN",
+    "Notes": "Australia definition of low income"
+  },
+  {
+    "": "",
+    "Geelong": "8.2% in Geelong SA2 (March 2019)",
+    "Data source (Geelong)\n": "",
+    "King County": "",
+    "Data source (King County)": "",
+    "Notes": "https://www.abs.gov.au/ausstats/abs@.nsf/Lookup/by%20Subject/6523.0~2015-16~Main%20Features~Characteristics%20of%20Low,%20Middle%20and%20High%20Income%20Households~8"
+  },
+  {
+    "": "",
+    "Geelong": "21.6% in Corio SA2 (March 2019)"
+  },
+  {
+    "": "Youth unemployment\n",
+    "Geelong": "",
+    "Data source (Geelong)\n": "",
+    "King County": "5.2% Disconnected youth (Jan. 2018)",
+    "Data source (King County)": "https://fred.stlouisfed.org/series/B14005DCYACS053033"
+  },
+  {
+    "": "Population increase (last 5 years)",
+    "Geelong": "223,357 in 2013; 252,217 in 2018 (12.9% increase)",
+    "Data source (Geelong)\n": "https://itt.abs.gov.au/itt/r.jsp?RegionSummary&region=22750&dataset=ABS_REGIONAL_LGA2018&geoconcept=LGA_2018&maplayerid=LGA2018&measure=MEASURE&datasetASGS=ABS_REGIONAL_ASGS2016&datasetLGA=ABS_REGIONAL_LGA2018&regionLGA=LGA_2018&regionASGS=ASGS_2016",
+    "King County": "2,233,163 in 2018; 2,044,449 in 2013 (9.2% increase)",
+    "Data source (King County)": "ACS"
+  },
+  {
+    "": "Housing shortage",
+    "Geelong": "Greater Geelong had a total of 411 affordable units, or just about 20%, for the third quarter last year",
+    "Data source (Geelong)\n": "https://www.dhhs.vic.gov.au/publications/rental-report"
+  },
+  {
+    "": "Change in median rent\n (last 5 years)",
+    "Geelong": "$800 in Sept. 2014 to $920 in Sept. 2019 (15% change)",
+    "Data source (Geelong)\n": "https://www.dhhs.vic.gov.au/publications/rental-report",
+    "King County": "$2,180 in Sept. 2014, $2,550 in Sept. 2019 (17.0%)",
+    "Data source (King County)": "https://www.zillow.com/king-county-wa/home-values/"
+  },
+  {
+    "": "Change in median rent\n (last 10 years)",
+    "Geelong": "$640 in Sept. 2010 to $920 in Sept. 2019 (44% change)",
+    "Data source (Geelong)\n": "",
+    "King County": "$1,740 in Sept 2010, $2,550 in Sept. 2019 (46.5% increase)",
+    "Data source (King County)": "https://www.zillow.com/king-county-wa/home-values/"
+  },
+  {
+    "": "Gini index (inequality)\n"
+  },
+  {
+    "": "Highest level of education attained",
+    "Geelong": "13.4% (Year 12)",
+    "Data source (Geelong)\n": "https://quickstats.censusdata.abs.gov.au/census_services/getproduct/census/2016/quickstat/203?opendocument",
+    "King County": "15% (high school)",
+    "Data source (King County)": "https://censusreporter.org/profiles/05000US53033-king-county-wa/"
+  }
+]
