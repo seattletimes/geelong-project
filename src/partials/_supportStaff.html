@@ -1,0 +1,25 @@
+<% 
+	var d3 = Object.assign({}, require("d3-scale"), require("d3-shape"));
+
+	var data = json["support-staff"];
+
+	var radius = 30;
+
+	var pie = d3.pie()
+    .value(d => d.pie_data)
+    .sort(null);
+
+	var arc = d3.arc()
+    .innerRadius(0)
+    .outerRadius(radius);
+%>
+
+<div class="flexbox support-staff-graphic">
+	<% data.forEach(function(d) { %>
+		<div>
+			<svg class="pie-chart">
+			</svg>
+			<p><%= d.text %></p>
+		</div>
+	<% }) %>
+</div>

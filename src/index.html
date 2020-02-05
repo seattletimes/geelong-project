@@ -27,6 +27,7 @@
 
       <h2 id="beginning"><%= doc.h2 %></h2>
       <p class="byline"><%= doc.byline %></p>
+      <p class="staff-position"><%= doc.staff_position %></p>
       <% doc.sections.forEach(function(s) { %>
         <% if (s.type === "text") { %>
           <% s.value.forEach(function(p) { %>
@@ -34,10 +35,30 @@
           <% }) %>
         <% } else if (s.type === "h3") { %>
           <h3><%= s.value %></h3>
-        <% } else if (s.type === "partial") { %>
-          <% path = "partials/_" + s.value + ".html" %>
-          <%= t.include(path) %>
+        <% } else if (s.type === "graphic") { %>
+          <div class="graphic-container">
+            <% path = "partials/_" + s.value.partial + ".html" %>
+            <h3 class="graphic-hed"><%= s.value.hed %></h3>
+            <p class="graphic-text"><%= s.value.chatter %></p>
+            <%= t.include(path) %>
+            <p class="data-source"><%= s.value.source %></p>
+            <p class="art-credit">Hilary Fung and Neal Morton / The Seattle Times</p>
+          </div>
+        <% } else if (s.type === "looper") { %>
+          <figure>
+          <video src="./assets/<%= s.value.file %>" autoplay="" playsinline="" loop="" muted=""></video>
+          <figcaption>
+            <span class="caption"><%= s.value.caption %></span>
+            <span class="art-credit">Lauren Frohne</span>
+          </figcaption>
+        </figure>
+        <% } else if (s.type === "brightcove") { %>
+          <figure>
+              <iframe src="//players.brightcove.net/1509317113/Nk8AFQkhe_default/index.html?videoId=${<%= s.value.brightcove_id %>}" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
+            <figcaption><%= s.value.caption %></figcaption>
+          </figure>
         <% } %>
+
       <% }) %>
       <%= t.include("partials/_navBottom.html") %>
 

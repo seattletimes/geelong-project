@@ -1,13 +1,16 @@
-<div class="graphic-container flexbox flexbox--comparison-graphic">
+<% var comparisons_data = json["comparisons"]; %>
+
+<div class="flexbox comparison-graphic__flexbox">
 	<div>
 		<h4>Geelong</h4>
-		<p>278,929 people</p>
-		<p>Greater Geelong had a total of 411 affordable units (about 20% of all units) in the third quarter last year</p>
+		<% comparisons_data.forEach(function(d) { %>
+			<p><%= d["Geelong"] %></p>
+		<% }) %>
 	</div>
 	<div>
-		<h4>Tukwila School District</h4>
-		<p>10% of students experiencing homelessness</p>
-		<p>93% of students experiencing homelessness are students of color</p>
+		<h4>King County</h4>
+		<% comparisons_data.forEach(function(d) { %>
+			<p><%= d["King County"] %></p>
+		<% }) %>
 	</div>
 </div>
-<p class="data-source"><a href="https://www.dhhs.vic.gov.au/publications/rental-report">Victoria state government</a></p>

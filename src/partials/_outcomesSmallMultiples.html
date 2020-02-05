@@ -1,0 +1,76 @@
+<%
+	var d3 = Object.assign({}, require("d3-scale"), require("d3-array"), require("d3-axis"));
+	
+	var homelessness_data = json["outcomes-homelessness"],
+		dropouts_data = json["outcomes-dropouts"];
+
+	var margin = {top: 10, bottom: 30, left: 40, right: 10},
+		height = 200 - margin.top - margin.bottom,
+		width = 300 - margin.left - margin.right,
+		homelessness_categories = ["3 Pilot Schools", "Other 9 Schools"],
+		homelessness_colors = ["#faa85f", "#d1d3d4"],
+		homelessness_ticks = [0, 50, 100, 150, 200],
+		homelessness_colorScale = d3.scaleOrdinal()
+			.domain(homelessness_categories)
+			.range(homelessness_colors),
+		homelessness_xScale = d3.scaleBand()
+			.domain(homelessness_data.map(d => d.Year))
+			.range([0, width])
+			.paddingInner(0.2),
+		homelessness_yScale = d3.scaleLinear()
+			.range([0, height])
+			.domain([0, d3.max(homelessness_data, d => d["Other 9 Schools"])]),
+		homelessness_yAxis = d3.axisLeft()
+			.scale(homelessness_yAxis),
+		dropouts_categories = ["12–18 yrs", "19–20 yrs", "21–24 yrs"],
+		dropouts_colors = ["#d89253", "#276baf", "#85b541"],
+		dropouts_ticks = [0, 100, 200],
+		dropouts_colorScale = d3.scaleOrdinal()
+			.domain(dropouts_categories)
+			.range(dropouts_colors),
+		dropouts_xScale = d3.scaleBand()
+			.domain(dropouts_data.map(d => d.year))
+			.range([0, width])
+			.paddingInner(0.2),
+		dropouts_yScale = d3.scaleLinear()
+			.range([0, height])
+			.domain([0, d3.max(dropouts_data, d => d["12–18 yrs"])]);
+%>
+
+<h4 class="graphic-hed">12- to 18-year-olds entering the homeless system</h4>
+<div class="flexbox">
+	<% homelessness_categories.forEach(function(cat) { %>
+		<div>
+			<p><%= cat %></p>
+			<svg width="<%= width + margin.left + margin.right %>" height="<%= height + margin.top + margin.bottom %>">
+			  <g transform="translate(<%= margin.left %>,<%= margin.top %>)">
+					<% homelessness_data.forEach(function(d, i) { %>
+				    <g transform="translate(<%= homelessness_xScale(d.Year) %>)">
+				    	<text class="graphic-text" x="<%= homelessness_xScale.bandwidth() / homelessness_categories.length %>" y="<%= height + margin.top + 10 %>" text-anchor="middle"><%= d.Year %></text>
+			    		<rect width="<%= homelessness_xScale.bandwidth() %>" height="<%= homelessness_yScale(d[cat]) %>" x="0" y="<%= height - homelessness_yScale(d[cat]) %>" fill="<%= homelessness_colorScale(cat) %>"></rect>
+				    </g>
+					<% }) %>
+				</g>
+			</svg>
+		</div>
+	<% }) %>
+</div>
+
+<h4>Dropouts</h4>
+<div class="flexbox">
+	<% dropouts_categories.forEach(function(cat) { %>
+		<div>
+			<p><%= cat %></p>
+			<svg width="<%= width + margin.left + margin.right %>" height="<%= height + margin.top + margin.bottom %>">
+			  <g transform="translate(<%= margin.left %>,<%= margin.top %>)">
+					<% dropouts_data.forEach(function(d, i) { %>
+				    <g transform="translate(<%= dropouts_xScale(d.year) %>)">
+				    	<text class="graphic-text graphic-text--small" x="<%= dropouts_xScale.bandwidth() / dropouts_categories.length %>" y="<%= height + margin.top + 10 %>" text-anchor="middle"><%= d.year %></text>
+			    		<rect width="<%= dropouts_xScale.bandwidth() %>" height="<%= dropouts_yScale(d[cat]) %>" x="0" y="<%= height - dropouts_yScale(d[cat]) %>" fill="<%= dropouts_colorScale(cat) %>"></rect>
+				    </g>
+					<% }) %>
+				</g>
+			</svg>
+		</div>
+	<% }) %>
+</div>

@@ -6,7 +6,7 @@
 
 	var margin = {top: 10, bottom: 30, left: 40, right: 10},
 		height = 350 - margin.top - margin.bottom,
-		width = 500 - margin.left - margin.right,
+		width = 400 - margin.left - margin.right,
 		homelessness_categories = ["3 Pilot Schools", "Other 9 Schools"],
 		homelessness_colors = ["#faa85f", "#d1d3d4"],
 		homelessness_ticks = [0, 50, 100, 150, 200],
@@ -37,9 +37,7 @@
 			.domain([0, d3.max(dropouts_data, d => d["12–18 yrs"])]);
 %>
 
-<h3 class="graphic-hed">Outcomes of The Geelong Project</h3>
-
-<div class="flexbox">
+<div class="flexbox outcomes-graphic__flexbox">
 <div>
 	<p class="graphic-text">12- to 18-year-olds entering the homeless system</p>
 	<div class="legend">
