@@ -1,6 +1,9 @@
 @import "seattletimes";
 @import "brightcove";
 
+@geelong: #d89253;
+@kingcounty: #4f84af;
+
 @keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
@@ -90,7 +93,7 @@ h1 {
 	margin-top: 30vh;
 }
 
-h2, h3, .byline, .body-text, .staff-position {
+h2, h3, .byline, .body-text, .publish-date {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 680px;
@@ -98,25 +101,6 @@ h2, h3, .byline, .body-text, .staff-position {
 
 .flexbox {
 	display: flex;
-}
-
-.outcomes-graphic__flexbox {
-	div {
-		width: 50%;
-	}
-	div:first-child {
-		padding-right: 15px;
-	}
-	div:last-child {
-		padding-left: 15px;
-	}
-}
-
-.comparison-graphic__flexbox {
-	div {
-		padding: 10px;
-		width: 50%;
-	}
 }
 
 .graphic-container {
@@ -128,6 +112,25 @@ h2, h3, .byline, .body-text, .staff-position {
 		clear: both;
 		content: "";
 		display: block;
+	}
+}
+
+.sidebar {
+	padding: 15px;
+	width: 300px;
+	@media @tablet {
+		margin: auto;
+	}
+	@media @mobile {
+		width: 300px;
+	}
+	@media @tablet-up {
+		float: right;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	@media (min-width: 1240px) {
+		margin-right: ~"calc(50% - 440px)";
 	}
 }
 
@@ -150,6 +153,34 @@ h2, h3, .byline, .body-text, .staff-position {
 }
 
 .survey-questions-graphic p {
+	margin: 0;
+}
+
+.comparison-inner {
+	border-style: solid;
+	border-width: 2px;
+	border-left-width: 16px;
+	padding: 10px 10px 10px 14px;
+	&:first-child {
+		margin-bottom: 10px;
+	}
+	&:last-child {
+		margin-top: 10px;
+	}
+	&.Geelong {
+		border-color: @geelong;
+	}  
+	&.King {
+		border-color: @kingcounty;
+	}
+}
+
+.comparison-graphic__hed {
+	font-family: @df-sans;
+	margin: 0;
+}
+
+.comparison-graphic__text {
 	margin: 0;
 }
 
