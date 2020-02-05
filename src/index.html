@@ -70,8 +70,9 @@
             <figcaption><%= s.value.caption %></figcaption>
           </figure>
         <% } %>
-
       <% }) %>
+
+      <%= t.include("partials/_comments.html") %>
       <%= t.include("partials/_navBottom.html") %>
 
     <script src="app.js" async></script>
