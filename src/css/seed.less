@@ -230,7 +230,7 @@ h3 {
 	padding: 10px;
 }
 
-.survey-questions-graphic p {
+.question, .answer-text, .answer-list {
 	margin: 0;
 }
 
@@ -262,11 +262,22 @@ h3 {
 	margin: 0;
 }
 
+.survey-questions-graphic h4 {
+	font-size: 0.95em;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
 .question-container {
 	border: 1px solid @red;
 	border-radius: 3px;
 	background-color: @pink;
 	padding: 10px 20px;
+	@media @tablet {
+		&:first-child {
+			margin-bottom: 10px;
+		}
+	}
 	@media @tablet-up {
 		width: 50%;
 		&:first-child {
@@ -279,7 +290,9 @@ h3 {
 }
 
 .question {
+	font-size: 16px;
 	font-weight: bold;
+	margin-bottom: 10px;
 }
 
 .red {
@@ -287,6 +300,7 @@ h3 {
 }
 
 .answer-list {
+	font-size: 16px;
 	margin: 0;
 	padding-left: 0;
 }
