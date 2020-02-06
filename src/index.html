@@ -18,7 +18,6 @@
       <div class="hero">
         <figure class="hero__figure shown">
           <video class="hero__video" src="./assets/<%= doc.intro_file %>" autoplay="" playsinline="" loop="" muted=""></video>
-          <figcaption class="art-credit">Lauren Frohne</figcaption>
         </figure>
         <div class="hero__text">
           <h1><%= doc.h1 %></h1>
@@ -56,18 +55,22 @@
               </div>
             <% }) %>
           </div>
+        <% } else if (s.type === "figure") { %>
+          <figure class="article__figure standalone">
+            <img class="lazy" src="./assets/<%= s.value.file %>-ll.JPG" data-src="./assets/<%= s.value.file %>.JPG" alt="<%= s.value.caption %>">
+            <figcaption class="caption"><%= s.value.caption %></figcaption>
+          </figure>
         <% } else if (s.type === "looper") { %>
           <figure>
             <video src="./assets/<%= s.value.file %>" autoplay="" playsinline="" loop="" muted=""></video>
             <figcaption>
-              <span class="caption"><%= s.value.caption %></span>
-              <span class="art-credit">Lauren Frohne</span>
+              <p class="caption"><%= s.value.caption %></p>
             </figcaption>
           </figure>
         <% } else if (s.type === "brightcove") { %>
           <figure>
             <iframe src="//players.brightcove.net/1509317113/Nk8AFQkhe_default/index.html?videoId=${<%= s.value.brightcove_id %>}" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
-            <figcaption><%= s.value.caption %></figcaption>
+            <figcaption class="caption"><%= s.value.caption %></figcaption>
           </figure>
         <% } %>
       <% }) %>

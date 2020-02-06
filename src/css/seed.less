@@ -5,6 +5,9 @@
 @geelong: #d89253;
 @kingcounty: #4f84af;
 
+@pink: #ffdce4;
+@red: #d12222;
+
 @keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
@@ -135,6 +138,25 @@ h2, h3, .byline, .body-text, .publish-date {
 	}
 }
 
+.article__figure {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	max-width: 1280px;
+	@media (max-width: 1280px) {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	@media (min-width: 1280px) {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.standalone img {
+	max-width: 1280px;
+	width: 100%;
+}
+
 .legend-box {
 	display: inline-block;
 	height: 15px;
@@ -183,6 +205,45 @@ h2, h3, .byline, .body-text, .publish-date {
 
 .comparison-graphic__text {
 	margin: 0;
+}
+
+.question-container {
+	border: 1px solid @red;
+	border-radius: 3px;
+	background-color: @pink;
+	padding: 10px 20px;
+	width: 50%;
+	&:first-child {
+		margin-right: 10px;
+	}
+	&:last-child {
+		margin-left: 10px;
+	}
+}
+
+.answer-list {
+	margin: 0;
+	padding-left: 0;
+}
+
+.answer-list li {
+	display: inline-block;
+	list-style-type: none;
+	padding-left: 5px;
+	padding-right: 5px;
+	&:first-child {
+		padding-left: 0;
+	}
+}
+
+.answer-bubble {
+	background: #fff;
+	border: 1px solid red;
+	border-radius: 2px;
+	display: inline-block;
+	height: 12px;
+	margin-right: 8px;
+	width: 16px;
 }
 
 .nav-bottom {

@@ -1,7 +1,7 @@
 intro_file: topvideo_LOOP.mp4
 
-h1: From Crisis to Prevention
-h2: Dek
+h1: An ounce of prevention for at-risk students: It all starts with a question
+h2: The Geelong Project, named for a Australian seaside town, aims to steer kids away from homelessness and dropping out before their situation becomes a crisis.
 byline: Story by Neal Morton | Videos by Lauren Frohne | Photos by Ellen Banner
 date: Feb. 9, 2020 at 6:00 am
 
@@ -34,19 +34,19 @@ The approach, which has shown early success, will soon find a new home in King C
 
 Last fall, about 1,700 students took a first round of surveys in a suburban school district west of Minneapolis. And in South King County, the Tukwila school district plans to launch its own pilot later this year; others may follow.
 
-Seattle considered joining the local pilot, but so far has demurred from committing to participate.<strong> The discussion comes as educators and advocates across Washington are pushing the Legislature to spend billions to provide more counselors and nurses.</strong>
+Seattle considered joining the local pilot, but so far has demurred from committing to participate. The discussion comes as educators and advocates across Washington are pushing the Legislature to spend billions to provide more counselors and nurses.
 
 The idea sounds simple: Early intervention. The student surveys trigger a series of solutions — from group counseling to emergency aid — designed to prevent young people from teetering into homelessness.
-
-The Geelong Project, as it’s known here, also reveals who’s on the brink of disengaging from school entirely. It’s a critical piece of the program, because research shows young adults who didn’t finish high school are 4.5 times more likely to experience homelessness.
 []
 
 {.brightcove}
 brightcove_id: 6126973456001
-caption: Caption goes here
+caption: Confronted with rising homelessness, service providers and community leaders in Geelong developed an early intervention approach embedded in schools. The results have compelled U.S. school districts to adopt it. (Lauren Frohne / The Seattle Times)
 {}
 
 [.+text]
+The Geelong Project, as it’s known here, also reveals who’s on the brink of disengaging from school entirely. It’s a critical piece of the program, because research shows young adults who didn’t finish high school are 4.5 times more likely to experience homelessness.
+
 “Think about it as a seesaw,” said Anne-Marie Ryan, who leads the Geelong Region Local Learning and Employment Network.
 
 On one side, she said, are kids still in school, with families. But students who already dropped out or left home tip the other side down. “Our goal is to reweight the seesaw with a lot more early intervention,” Ryan said, “and over time we’ve seen the balance tip the other way.”
@@ -54,11 +54,24 @@ On one side, she said, are kids still in school, with families. But students who
 The simplicity is deceptive — especially given the urgency of addressing homelessness back home.
 []
 
+{.looper}
+file: scenesetter_LOOP.mp4
+caption: Geelong, a port city of about 250,000, has struggled to absorb new workers and residents, many of whom are coming from nearby Melbourne. The city hugs Corio Bay where the “Geelong bollards” dot the waterfront and represent aspects of the city’s history and culture. The figures are made by artist Jan Mitchell from reclaimed timber pier pylons. 
+{}
+
 h3:  ‘Not a quick fix’
 
 [.+text]
 In Seattle, where images of needles and tents have come to symbolize the region’s stark inequality, the debate around homelessness often focuses on housing. Some call for increasing police enforcement to clear our encampments.
+[]
 
+{.figure}
+file: Geelong_Construction_neighborhood
+caption: Caption goes here
+{}
+  
+
+[.+text]
 On a recent visit to Geelong, a bayside town where many work in manufacturing or retail, the songs of Australia’s native birds echoed through streets that seemed clear of “rough sleepers,” as they’re known here, over the course of two weeks. City parks — which families filled during a public holiday for a horse race — also appeared deserted overnight.
 
 Few residents were aware of the Geelong Project — a program that, when successful, prevents the type of homelessness that Seattle’s used to seeing. It costs about $275,000 to $350,000 (American) annually.
@@ -93,6 +106,13 @@ Federal law doesn’t allow housing agencies to help families who “couch surf�
 “The notion that we have to wait so long, it’s both immoral and ineffective,” said Barbara Duffield, executive director of SchoolHouse Connection, a Washington, D.C.-based nonprofit working to overcome homelessness through education. “And it’s failing in spectacular fashion.”
 []
 
+{.figure}
+file: Geelong_amber_counselor
+caption: Caption goes here
+{}
+  
+
+
 h3: ‘A bespoke response’
 
 [.+text]
@@ -125,12 +145,35 @@ The lowest level prompts occasional check-ins and group sessions on bullying, do
 
 “It’s a bespoke response to your individual need,” said Northern Bay principal Ken Massari, who welcomed the Geelong Project to his campus six years ago.
 
+{.figure}
+class: inset
+file: Geelong_NGeelongSecCol_office
+caption: Caption goes here
+{}
+  
+
+
+{.figure}
+class: inset
+file: Geelong_NGeelongSecCol_diversity
+caption: Caption goes here
+{}
+  
+
+
 A graduate of Northern Bay himself, Massari shared a history lesson of the neighborhood: When the Ford plant opened after World War I, veterans streamed into the sleepy tourist town for work in Geelong’s growing industrial hub. Families, including his, could afford new homes close to Corio Bay — which the local Aboriginal people called “Jillong.”
 
 Today, many refugees and asylum-seekers live in those homes. And the children they send to school, Massari said, often carry generational poverty and trauma to class. So too with Northern Bay’s 150 or so Aboriginal students.
 
 “They don’t call their life poverty,” Massari said. But, “it’s often compounded, that disadvantage upon disadvantage.”
 []
+
+{.figure}
+file: Geelong_students_foosball
+caption: Caption goes here
+{}
+  
+
 
 h3: The Geelong Project in action
 
@@ -144,7 +187,17 @@ It hovered over Hodgson’s head in an office crammed with stacks of chairs and 
 The young woman’s message didn’t surprise Hodgson, who had met with her weekly for months.
 
 The point, she said, is that, unlike parents or teachers, Geelong staffers aren’t authority figures.
+[]
 
+{.figure}
+class: inset
+file: Geelong_counselor
+caption: Kylie Hodgson, who works with The Geelong Project, and whose specialty is building relationships with young people, speaks with a student at Northern Bay College in Geelong.
+{}
+  
+
+
+[.+text]
 “We’re sort of just someone that’s just there for that young person and whatever they want,” Hodgson added. “It’s just a series of lots of little things that hopefully build up.”
 
 This visit, Hodgson pulled out a drawing of a bucket overflowing with a rainbow of scribbled bars. The student had shaded each bar with colors that represented the different, escalating crises in her life: An abusive father who came and went. Overdue schoolwork. Nightmares that kept her awake.
@@ -168,6 +221,11 @@ The young woman fidgeted as she responded, crossing her ankles back and forth. S
 The student indulged a brief smile, grabbed her backpack and headed back to class.
 []
 
+{.looper}
+file: wellbeing_LOOP.mp4
+caption: At Northern Bay College’s Goldsworthy campus, students are encouraged to visit the well-being center staffed by a team of social workers and counselors that address a range of issues affecting their day-to-day lives. The school’s principal, Ken Massari, welcomed The Geelong Project to the school six years ago as an additional resource.  
+{}
+
 h3: A foundation of support
 
 [.+text]
@@ -184,9 +242,9 @@ So he started working in schools and oversaw what’s known in Australia as a we
 
 {.graphic}
 hed: Support staff in Geelong and King County schools
-chatter: In Geelong, schools fill state-funded wellbeing teams with social workers, counselors, doctors, nurses and first-aid workers. Washington, meanwhile, provides schools with a fraction of the funding for even one wellbeing position. A typical high school of 600 students, for example, receives just 1.5% of the salary for a full-time social worker.
+chatter: In Geelong, schools fill state-funded well-being teams with social workers, counselors, doctors, nurses and first-aid workers. Washington, meanwhile, provides schools with a fraction of the funding for even one well-being position. A typical high school of 600 students, for example, receives just 1.5% of the salary for a full-time social worker.
 partial: supportStaff
-source: Office of Superintendent of Public Instruction
+source: Source: Office of Superintendent of Public Instruction
 {}
 
 [.+text]
@@ -217,7 +275,7 @@ One young woman approached with red eyes. After helping her through a romantic c
 
 “What’s the surprise now?” she asked as another student knocked on the door.
 
-But 16-year-old didn’t have a problem. He wanted to share some artwork, a practice Vecchio encouraged to keep his thoughts positive.
+But the 16-year-old didn’t have a problem. He wanted to share some artwork, a practice Vecchio encouraged to keep his thoughts positive.
 
 Before Vecchio’s assistance, the young man said he often spent his time outside school alone in his room, lights off. Anxiety and depression made it difficult to maintain a job and friends.
 
@@ -225,6 +283,11 @@ He credited Vecchio for teaching him to work through his abandonment issues and 
 
 “The voices in my head, I don’t hear them any longer,” the student said. “I don’t need to hide in the dark anymore.”
 []
+
+{.looper}
+file: sunset_LOOP.mp4
+caption: Geelong's Eastern Beach public swimming pool, surrounded by a wooden walkway, is a popular recreation area at the edge of Corio Bay. It is adjacent to downtown Geelong, where the city’s first high-rise towers are being built, a signal of rapid population growth. 
+{}
 
 h3: Caveats
 
@@ -256,19 +319,9 @@ Emails obtained by The Seattle Times show DeWolf’s enthusiasm for the pilot pr
 
 {.graphic}
 hed: Student survey
-chatter: Students in the Hopkins school district, just west of Minneapolis, took an initial round of surveys last fall as part of the first U.S. pilot of The Upstream Project. Although shorter than the Australian survey, the Hopkins version asks similar questions about each student’s home life, experience at school and wellbeing.
+chatter: The 93-question Geelong Project survey asks students about their home life, experience at school and wellbeing.
 partial: surveyQuestions
 source: Note: Percentages may not total 100 due to informational/identity questions about age, grade level, etc. Source: Seattle Times analysis
-{}
-
-{.looper}
-file: wellbeing_LOOP.mp4
-caption: At Northern Bay College’s Goldsworthy campus, students are encouraged to visit the Wellbeing Centre staffed by a team of social workers and counselors that address a range of issues affecting their day-to-day lives. The school’s principal, Ken Massari, welcomed The Geelong Project to the school six years ago as an additional resource.  
-{}
-
-{.looper}
-file: scenesetter_LOOP.mp4
-caption: Geelong, a port city of about 250,000, has struggled to absorb new workers and residents, many of whom are coming from nearby Melbourne. The city hugs Corio Bay where the “Geelong bollards” dot the waterfront and represent aspects of the city’s history and culture. The figures are made by artist Jan Mitchell from reclaimed timber pier pylons. 
 {}
 
 [.+text]
@@ -291,8 +344,26 @@ Perhaps the biggest challenge is time.
 “Everybody who lives in our region would love to see a solution that sticks,” said Barber, with All Seattle Kids Home. “That’s the anger here: We chase after something for a few years, aren’t happy with it and shift direction again.”
 []
 
-{.looper}
-file: sunset_LOOP.mp4
-caption: Geelong's Eastern Beach public swimming pool, surrounded by a wooden walkway, is a popular recreation area at the edge of Corio Bay. It is adjacent to downtown Geelong where the city’s first high-rise towers are being built, a signal of Geelong’s rapid population growth. 
+{.figure}
+file: Geelong_SkylineAtDusk
+caption: Caption goes here
 {}
+  
+
+
+{.figure}
+file: Geelong_street_scene
+caption: Caption goes here
+{}
+  
+
+
+{.figure}
+file: Geelong_walking_to_project
+caption: Caption goes here
+{}
+  
+
+
 []
+:skip

@@ -1,18 +1,26 @@
 [
   {
-    "percentage": 59,
-    "text": "59% of a guidance counselor salary"
+    "position": "guidance counselor",
+    "number of students to generate one staff": 236,
+    "percentage": 376.69,
+    "text": "377% of a guidance counselor salary"
   },
   {
-    "percentage": 9.6,
-    "text": "9.6% of a school nurse salary"
+    "position": "school nurses",
+    "number of students to generate one staff": "6,250.00",
+    "percentage": 14.22,
+    "text": "14% of a school nurses salary"
   },
   {
-    "percentage": 1.5,
-    "text": "1.5% of a social worker salary"
+    "position": "social workers",
+    "number of students to generate one staff": "40,000.00",
+    "percentage": 2.22,
+    "text": "2% of a social workers salary"
   },
   {
-    "percentage": 0.7,
-    "text": "0.7% of a psychologist salary"
+    "position": "psychologists",
+    "number of students to generate one staff": "85,714.00",
+    "percentage": 1.04,
+    "text": "1% of a psychologists salary"
   }
 ]
