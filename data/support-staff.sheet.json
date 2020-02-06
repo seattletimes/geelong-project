@@ -3,24 +3,24 @@
     "position": "guidance counselor",
     "number of students to generate one staff": 236,
     "percentage": 376.69,
-    "text": "3.77 guidance counselor salaries\n"
+    "text": "salaries for three full guidance counselors and 77% of a fourth, who often end up <a href=\"https://www.seattletimes.com/education-lab/why-are-washingtons-school-counselors-monitoring-recess/\">taking on other roles</a>"
   },
   {
     "position": "school nurses",
     "number of students to generate one staff": "6,250.00",
     "percentage": 14.22,
-    "text": "14% of a school nurses salary"
+    "text": "14% of a school nurse's salary"
   },
   {
     "position": "social workers",
     "number of students to generate one staff": "40,000.00",
     "percentage": 2.22,
-    "text": "2% of a social workers salary"
+    "text": "2% of a social worker's salary"
   },
   {
     "position": "psychologists",
     "number of students to generate one staff": "85,714.00",
     "percentage": 1.04,
-    "text": "1% of a psychologists salary"
+    "text": "1% of a psychologist's salary"
   }
 ]

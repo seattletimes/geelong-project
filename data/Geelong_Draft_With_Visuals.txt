@@ -10,13 +10,13 @@ date: Feb. 9, 2020 at 6:00 am
 GEELONG, Australia — Over the next month, as schools here begin a new year, the staff at seven campuses will interrupt homerooms, ask students to put away assignments and hand each one of them a nearly <a href="https://www.documentcloud.org/documents/6767776-The-Geelong-Project-Student-Survey.html">100-question survey</a>.
 
 Teachers and translators will help explain the questions, some of them deeply personal: How often do you go to bed hungry? When was the last time you crashed on a friend’s couch? Do you feel safe at home?
-
-The top of the survey acknowledges how intrusive it may feel: "Your answers to various questions will be treated in strict confidence," the bold, black print states against a pink background. "A few questions might seem a little personal, but please have the confidence to answer honestly."
 []
 
 partial: locatorMap
 
 [.+text]
+The top of the survey acknowledges how intrusive it may feel: "Your answers to various questions will be treated in strict confidence," the bold, black print states against a pink background. "A few questions might seem a little personal, but please have the confidence to answer honestly."
+
 There’s a reason for the prying queries: prevention, a chance to steer young people away from dropping out of school or becoming homeless.
 
 “Youth homelessness in Australia and around the world is just such a massive issue,” Kylie Hodgson said. “And there just has to be something to be done to stop it.”
@@ -24,6 +24,8 @@ There’s a reason for the prying queries: prevention, a chance to steer young p
 Like Seattle, this port city has struggled to absorb new workers and residents. A popular waterfront park straddles Geelong’s homeless youth shelter and its first pair of gleaming apartment and office towers.
 
 But there’s another, less-gleaming side.
+
+Twice a week, Hodgson drives past a shuttered Ford factory and into Northern Bay, <a href="https://www.abc.net.au/news/2018-06-05/geelong-northern-bay-college-asks-community-to-sponsor-a-student/9812670">a neighborhood</a> identified as one of Australia’s most disadvantaged. The program worker meets with dozens of students at Northern Bay College, a relatively diverse campus serving students between grades 9 and 12 that became an early adopter in a regional effort to keep young people off the streets and in school.
 []
 
 {.comparison}
@@ -32,8 +34,6 @@ source: Sources: Australian Bureau of Statistics, U.S. Census Bureau
 {}
 
 [.+text]
-Twice a week, Hodgson drives past a shuttered Ford factory and into Northern Bay, <a href="https://www.abc.net.au/news/2018-06-05/geelong-northern-bay-college-asks-community-to-sponsor-a-student/9812670">a neighborhood</a> identified as one of Australia’s most disadvantaged. The program worker meets with dozens of students at Northern Bay College, a relatively diverse campus serving students between grades 9 and 12 that became an early adopter in a regional effort to keep young people off the streets and in school.
-
 The approach, which has shown early success, will soon find a new home in King County. The Tukwila School District plans to launch its own pilot later this year; others may follow. It’s already reached the U.S. Last fall, about 1,700 students took <a href="https://www.documentcloud.org/documents/6767777-Project-Upstream-Hopkins-student-survey.html">a first round</a> of surveys in a suburban school district west of Minneapolis.
 
 Seattle considered joining the local pilot, but so far has demurred from committing to participate. The discussion comes as educators and advocates across Washington are pushing the Legislature to <a href="https://www.seattletimes.com/education-lab/it-takes-7200-students-before-washington-state-will-pay-for-a-middle-schools-nurse-how-much-will-it-cost-to-change-that/">spend billions</a> for more counselors and nurses.
@@ -148,7 +148,7 @@ They reached a common understanding of the problem: Young people could only get 
 The group arrived at a potential solution: Form a community coalition, one that connects schools and “upstream” services through a central clearinghouse. To find the students in need, they designed the schoolwide surveys.
 []
 
-h3: MARK’S FLOWCHART GOES HERE
+partial: flowchart
 
 [.+text]
 After the survey, a team from a local youth agency interviews students through a universal screener, scores each response and ranks them on three tiers of risk.
@@ -256,8 +256,7 @@ So he started working in schools and oversaw what’s known in Australia as a we
 
 {.graphic}
 hed: Support staff in Geelong and King County schools
-chatter: In Geelong, schools fill state-funded wellbeing teams with social workers, counselors, doctors, nurses and first-aid workers. Washington, meanwhile, provides schools with a fraction of the funding for even one wellbeing position.
-label: Foster High School in Tukwila, Washington has 889 students. Washington state would provide the school with...
+chatter: In Geelong, schools fill state-funded well-being teams with social workers, counselors, doctors, nurses and first-aid workers. Washington, meanwhile, provides schools with less funding for most well-being positions.
 partial: supportStaff
 source: Source: Office of Superintendent of Public Instruction
 {}

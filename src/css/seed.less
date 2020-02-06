@@ -6,7 +6,6 @@
 @kingcounty: #4f84af;
 
 @pink: #ffdce4;
-@red: #d12222;
 
 @keyframes fadein {
   from { opacity: 0; }
@@ -180,7 +179,13 @@ h3 {
 }
 
 .caption {
+	clear: both;
 	margin-top: 5px;
+	&::after {
+		clear: both;
+		content: "";
+		display: block;
+	}
 }
 
 .dont-miss {
@@ -217,59 +222,6 @@ h3 {
 	}
 }
 
-.outcomes-graphic-container h4 {
-	font-size: 1em;
-	margin-top: 0;
-	margin-bottom: 15px;
-	text-align: center;
-}
-
-.outcomes__flexbox {
-	@media (min-width: 650px) {
-		display: flex;
-		margin: 0 auto;
-		width: 630px;
-	}
-}
-
-.outcomes__chart-container {
-	width: 300px;
-	@media (max-width: 650px) {
-		margin: 0 auto;
-	}
-	@media (min-width: 650px) {
-		&:first-child {
-			margin-right: 15px;
-		}
-		&:last-child {
-			margin-left: 15px;
-		}
-	}
-}
-
-.outcomes__label {
-	font-size: 0.8em;
-	font-weight: bold;
-	margin: 0;
-}
-
-.support-staff-graphic.flexbox div {
-	padding: 10px;
-}
-
-.pie-container {
-	padding: 0 5px;
-	text-align: center;
-}
-
-.flexbox .pie-container {
-	width: 33%;
-}
-
-.question, .answer-text, .answer-list {
-	margin: 0;
-}
-
 .comparison-inner {
 	border-style: solid;
 	border-width: 2px;
@@ -288,14 +240,145 @@ h3 {
 		border-color: @kingcounty;
 	}
 }
-
 .comparison-graphic__hed {
 	font-family: @df-sans;
 	margin: 0;
 }
-
 .comparison-graphic__text {
 	margin: 0;
+}
+
+.outcomes-graphic-container h4 {
+	font-size: 1em;
+	margin-top: 0;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.outcomes__flexbox {
+	@media (min-width: 650px) {
+		display: flex;
+		margin: 0 auto;
+		width: 630px;
+	}
+}
+.outcomes__chart-container {
+	width: 300px;
+	@media (max-width: 650px) {
+		margin: 0 auto;
+	}
+	@media (min-width: 650px) {
+		&:first-child {
+			margin-right: 15px;
+		}
+		&:last-child {
+			margin-left: 15px;
+		}
+	}
+}
+.outcomes__label {
+	font-size: 0.8em;
+	font-weight: bold;
+	margin: 0;
+}
+
+@media @desktop-up {
+	.flowchart__step {
+		float: left;
+		width: ~"calc(33% - 18px)";
+		height: 165px;
+	}
+}
+.flowchart__box {
+	border: 1px solid @df-light-gray;
+	border-radius: 5px;
+	margin: 0;
+	padding: 10px;
+	@media @desktop-up {
+		margin-bottom: 10px;
+	}
+}
+.flowchart__step-number {
+	background: darken(@geelong, 15%);
+	border-radius: 2px;
+	color: #fff;
+	display: inline-block;
+	margin: 0;
+	padding: 2px 10px;
+	&.step-number--mini-step {
+		background: @geelong;
+	}
+}
+.mini-step-container--mobile {
+	@media @tablet {
+		display: flex;
+		.flowchart__box {
+			width: 50%;
+			&:first-child {
+				margin-right: 5px;
+			}
+		}
+	}
+}
+.mini-step-container--desktop {
+	@media @desktop-up {
+		clear: left;
+		width: 510px;
+		margin: auto;
+		.flowchart__step {
+			height: auto;
+			width: 490px;
+		}
+		.flowchart__box {
+			margin-bottom: 10px;
+		}
+	}
+	&::after {
+		content: "";
+		clear: both;
+		display: block;
+	}
+}
+.flowchart__text {
+	margin: 4px 0 0 0;
+	font-size: 16px;
+}
+.arrow {
+	@media @desktop-up {
+		float: left;
+	  width: 0; 
+	  height: 0;
+	  margin: 72px 5px; 
+	  border-top: 10px solid transparent;
+	  border-bottom: 10px solid transparent;
+	  border-left: 10px solid @df-light-gray;
+	}
+	@media @tablet {
+		height: 0; 
+		margin: 5px auto;
+	  width: 0; 
+	  border-left: 10px solid transparent;
+	  border-right: 10px solid transparent;
+	  border-top: 10px solid @df-light-gray;
+	}
+}
+
+.support-staff-graphic.flexbox div {
+	padding: 10px;
+}
+.pie-container {
+	padding: 0 5px;
+	text-align: center;
+}
+.flexbox .pie-container {
+	@media @tablet-up {
+		width: 33%;
+	}
+}
+.support-staff__text {
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 480px;
 }
 
 .survey-questions-graphic h4 {
@@ -303,11 +386,13 @@ h3 {
 	margin-bottom: 10px;
 	text-align: center;
 }
-
+.question, .answer-text, .answer-list {
+	margin: 0;
+}
 .question-container {
-	border: 1px solid @red;
+	border: 1px solid darken(@geelong, 15%);
 	border-radius: 3px;
-	background-color: @pink;
+	background-color: lighten(@geelong, 30%);
 	padding: 10px 20px;
 	@media @tablet {
 		&:first-child {
@@ -324,23 +409,19 @@ h3 {
 		}
 	}
 }
-
 .question {
 	font-size: 16px;
 	font-weight: bold;
 	margin-bottom: 10px;
 }
-
 .red {
-	color: @red;
+	color: darken(@geelong, 15%);
 }
-
 .answer-list {
 	font-size: 16px;
 	margin: 0;
 	padding-left: 0;
 }
-
 .answer-list li {
 	display: inline-block;
 	list-style-type: none;
@@ -350,10 +431,9 @@ h3 {
 		padding-left: 0;
 	}
 }
-
 .answer-bubble {
 	background: #fff;
-	border: 1px solid red;
+	border: 1px solid darken(@geelong, 15%);
 	border-radius: 2px;
 	display: inline-block;
 	height: 12px;
