@@ -30,8 +30,13 @@ animateHero();
 
 var data = require("../../data/support-staff.sheet.json"),
 mapped_data = data.map(function(d) {
+	if (d.percentage > 100) {
+		var slice_data = [d.percentage - 300, 100 - (d.percentage - 300)];
+	} else {
+		var slice_data = [d.percentage, 100 - d.percentage];
+	}
 	return {
-		pie_data: [d.percentage, 100 - d.percentage],
+		pie_data: slice_data,
 		text: d.text
 	}
 });

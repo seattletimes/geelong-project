@@ -2,7 +2,7 @@ intro_file: topvideo_LOOP.mp4
 
 h1: An ounce of prevention for at-risk students
 h2: The Geelong Project, named for a Australian seaside town, aims to steer kids away from homelessness and dropping out before their situation becomes a crisis.
-byline: Story by Neal Morton | Videos by Lauren Frohne | Photos by Ellen Banner
+byline: Story by Neal Morton | Videos by Lauren Frohne | Photos by Ellen M. Banner
 date: Feb. 9, 2020 at 6:00 am
 
 [+sections]
@@ -32,9 +32,9 @@ source: Sources: Australian Bureau of Statistics, U.S. Census Bureau
 {}
 
 [.+text]
-Twice a week, Hodgson drives past a shuttered Ford factory and into <a href="https://www.abc.net.au/news/2018-06-05/geelong-northern-bay-college-asks-community-to-sponsor-a-student/9812670">a neighborhood</a> identified as one of Australia’s most disadvantaged. The program worker meets with dozens of students at Northern Bay College, a campus serving students between grades 9 and 12 that became an early adopter in a regional effort to keep young people off the streets and in school.
+Twice a week, Hodgson drives past a shuttered Ford factory and into Northern Bay, <a href="https://www.abc.net.au/news/2018-06-05/geelong-northern-bay-college-asks-community-to-sponsor-a-student/9812670">a neighborhood</a> identified as one of Australia’s most disadvantaged. The program worker meets with dozens of students at Northern Bay College, a relatively diverse campus serving students between grades 9 and 12 that became an early adopter in a regional effort to keep young people off the streets and in school.
 
-The approach, which has shown early success, will soon find a new home in King County. The Tukwila School District plans to launch its own pilot later this year; others may follow. Last fall, about 1,700 students took <a href="https://www.documentcloud.org/documents/6767777-Project-Upstream-Hopkins-student-survey.html">a first round</a> of surveys in a suburban school district west of Minneapolis.
+The approach, which has shown early success, will soon find a new home in King County. The Tukwila School District plans to launch its own pilot later this year; others may follow. It’s already reached the U.S. Last fall, about 1,700 students took <a href="https://www.documentcloud.org/documents/6767777-Project-Upstream-Hopkins-student-survey.html">a first round</a> of surveys in a suburban school district west of Minneapolis.
 
 Seattle considered joining the local pilot, but so far has demurred from committing to participate. The discussion comes as educators and advocates across Washington are pushing the Legislature to <a href="https://www.seattletimes.com/education-lab/it-takes-7200-students-before-washington-state-will-pay-for-a-middle-schools-nurse-how-much-will-it-cost-to-change-that/">spend billions</a> for more counselors and nurses.
 
@@ -47,7 +47,7 @@ caption: Confronted with rising homelessness, service providers and community le
 {}
 
 [.+text]
-<a href="http://www.thegeelongproject.com.au/">The Geelong Project</a>, as it’s known here, also reveals who’s on the brink of disengaging from school entirely. It’s a critical piece of the program, because <a href="https://www.chapinhall.org/wp-content/uploads/ChapinHall_VoYC_Education-Brief.pdf">research shows</a> young adults who didn’t finish high school are 4.5 times more likely to experience homelessness.
+<a href="http://www.thegeelongproject.com.au/">The Geelong Project</a>, as it’s known here, also reveals who’s on the brink of disengaging from school entirely. It’s a critical piece, because <a href="https://www.chapinhall.org/wp-content/uploads/ChapinHall_VoYC_Education-Brief.pdf">research shows</a> young adults who didn’t finish high school are 4.5 times more likely to experience homelessness.
 
 “Think about it as a seesaw,” said Anne-Marie Ryan, <a href="http://www.grllen.com.au/about/our-team">who leads</a> the Geelong Region Local Learning and Employment Network.
 
@@ -71,7 +71,7 @@ In Seattle, where images of needles and tents have come to symbolize the region�
 {.figure}
 class: figure--inline
 file: Geelong_Construction_neighborhood
-caption: A housing development is being built south of downtown Geelong, Australia. Many people are moving from other areas of Australia to Geelong because it is less expensive and there are job opportunities, so construction is booming. But the shortage of housing is also contributing to a growing homeless problem. (Ellen M. Banner / The Seattle Times)
+caption: A housing development is being built south of downtown Geelong, Australia. Many people are moving from other areas of Australia to Geelong because it is less expensive and there are job opportunities, so construction is booming. But the shortage of housing is also contributing to a growing homeless problem.
 {}
   
 
@@ -128,7 +128,7 @@ caption: Amber Gibson, an early-intervention worker with The Geelong Project, ch
 h3: “A bespoke response”
 
 [.+text]
-It was 2011, and rising homelessness in Melbourne spilled into Geelong, driven by rising rents and lack of public housing.
+It was 2011, and rising homelessness in Melbourne spilled into Geelong, driven by rising rents and a lack of public housing.
 
 At the time, about 4% of Geelong’s youth experienced homelessness. Only 2% of young people who secured short-term housing returned to their families’ homes, and up to 250 dropped out of school each year. Youth unemployment topped 30%.
 []
@@ -161,7 +161,7 @@ The lowest level prompts occasional check-ins and group sessions on bullying, do
 {.figure}
 class: figure--inline
 file: Geelong_NGeelongSecCol_office
-caption: Amber Gibson, left, an early-intervention worker, works with Tina Doyle, a "well-being team" leader at North Geelong Secondary College in Geelong, Australia. (Ellen M. Banner / The Seattle Times)
+caption: Amber Gibson, left, an early-intervention worker, works with Tina Doyle, a "well-being team" leader at North Geelong Secondary College in Geelong, Australia.
 {}
   
 
@@ -169,13 +169,13 @@ caption: Amber Gibson, left, an early-intervention worker, works with Tina Doyle
 {.figure}
 class: figure--inline
 file: Geelong_NGeelongSecCol_diversity
-caption: Students at Australia's North Geelong Secondary College wear apparel from their home countries as they march in a parade as part of a multicultural festival. (Ellen M. Banner / The Seattle Times)
+caption: Students at Australia's North Geelong Secondary College wear apparel from their home countries as they march in a parade as part of a multicultural festival.
 {}
   
 
 
 [.+text]
-A graduate of Northern Bay himself, Massari shared a history lesson of the neighborhood: When the Ford plant opened after World War I, veterans streamed into the sleepy tourist town for work in Geelong’s growing industrial hub. Families, including his, could afford new homes close to Corio Bay — which the local Aboriginal people <a href="https://www.britannica.com/place/Geelong">called “Jillong.”</a>
+A graduate of Northern Bay himself, Massari shared a history lesson of the Northern Bay neighborhood: When the Ford plant opened after World War I, veterans streamed into the sleepy tourist town for work in Geelong’s growing industrial hub. Families, including his, could afford new homes close to Corio Bay — which the local Aboriginal people <a href="https://www.britannica.com/place/Geelong">called “Jillong.”</a>
 
 Today, many refugees and asylum-seekers live in those homes. And the children they send to school, Massari said, often carry generational poverty and trauma to class. So too with Northern Bay’s 150 or so Aboriginal students.
 
@@ -185,7 +185,7 @@ Today, many refugees and asylum-seekers live in those homes. And the children th
 {.figure}
 class: figure--full
 file: Geelong_students_foosball
-caption: Emma McKie, left, an early-intervention intern, plays a game with Northern Bay students. During a class outing, students ate, played games and had discussions. (Ellen M. Banner / The Seattle Times)
+caption: Emma McKie, left, an early-intervention intern, plays a game with Northern Bay students. During a class outing, students ate, played games and had discussions.
 {}
   
 
@@ -205,7 +205,7 @@ The point, she said, is that unlike parents or teachers, Geelong staffers aren�
 {.figure}
 class: figure--inline
 file: Geelong_counselor
-caption: Kylie Hodgson builds relationships with young people as part of her work as an early-intervention specialist. The Geelong Project aims to steer  students away from homelessness or dropping out of school. (Ellen M. Banner / The Seattle Times)
+caption: Kylie Hodgson builds relationships with young people as part of her work as an early-intervention specialist. The Geelong Project aims to steer  students away from homelessness or dropping out of school.
 {}
   
 
@@ -257,6 +257,7 @@ So he started working in schools and oversaw what’s known in Australia as a we
 {.graphic}
 hed: Support staff in Geelong and King County schools
 chatter: In Geelong, schools fill state-funded wellbeing teams with social workers, counselors, doctors, nurses and first-aid workers. Washington, meanwhile, provides schools with a fraction of the funding for even one wellbeing position.
+label: Foster High School in Tukwila, Washington has 889 students. Washington state would provide the school with...
 partial: supportStaff
 source: Source: Office of Superintendent of Public Instruction
 {}
@@ -336,11 +337,11 @@ Emails obtained by The Seattle Times show DeWolf’s enthusiasm for the pilot pr
 hed: Student survey
 chatter: The 93-question Geelong Project survey asks students about their home life, experience at school and wellbeing. Here’s a sample of the questions.
 partial: surveyQuestions
-source: Note: The remaining questions asked for basic biographical information. Source: Seattle Times analysis
+source: Note: The remaining questions asked for basic biographical information. Source: Australian Index of Adolescent Development, Seattle Times analysis
 {}
 
 [.+text]
-Instead, the district’s manager of homeless programs said Seattle Public Schools (SPS) would focus on <a href="https://www.seattletimes.com/education-lab/three-months-into-seattles-new-600-million-plus-education-levy-where-has-the-money-been-going/">a partnership</a> with the city, one which only helps students and families in crisis, rather than preventing them from ending up homeless to begin with. In a statement, Tyra Williams, SPS student support-services manager, pointed to the district’s hiring more staff to support homeless youth; services and referrals for that population; and partnerships with several nonprofits and philanthropies that focus on identifying risk factors.
+Instead, the district’s manager of homeless programs said Seattle Public Schools (SPS) would focus on <a href="https://www.seattletimes.com/education-lab/three-months-into-seattles-new-600-million-plus-education-levy-where-has-the-money-been-going/">a partnership</a> with the city, one which helps students and families in crisis rather than preventing them from ending up homeless to begin with. In a statement, Tyra Williams, SPS student support-services manager, pointed to the district’s hiring more staff to support homeless youth; services and referrals for that population; and partnerships with several nonprofits and philanthropies that focus on identifying risk factors.
 
 Now, <a href="https://schoolhousewa.org/">Schoolhouse Washington</a> — the educational arm of Seattle-based nonprofit Building Changes — will launch the Upstream pilot in Tukwila.
 
@@ -362,21 +363,23 @@ Perhaps the biggest challenge is time.
 {.figure}
 class: figure--full
 file: Geelong_SkylineAtDusk
-caption: Geelong, Australia, is a port city of about 250,000. The popular Eastern Beach public swimming area is surrounded by a two-level, shark-proof promenade. (Ellen M. Banner / The Seattle Times)
+caption: Geelong, Australia, is a port city of about 250,000. The popular Eastern Beach public swimming area is surrounded by a two-level, shark-proof promenade.
 {}
   
 
 
 {.figure}
+class: figure--inline
 file: Geelong_street_scene
-caption: Downtown Geelong, Australia, has a bustling shopping and restaurant district. (Ellen M. Banner / The Seattle Times)
+caption: Downtown Geelong, Australia, has a bustling shopping and restaurant district.
 {}
   
 
 
 {.figure}
+class: figure--inline
 file: Geelong_walking_to_project
-caption: Students from Northern Bay in Geelong, Australia, walk to a nearby center for relaxation and discussions as part of The Geelong Project. (Ellen M. Banner / The Seattle Times)
+caption: Students from Northern Bay in Geelong, Australia, walk to a nearby center for relaxation and discussions as part of The Geelong Project.
 {}
   
 

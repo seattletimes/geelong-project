@@ -14,13 +14,29 @@
     .outerRadius(radius);
 %>
 
-<h4>The state provides a typical high school of 600 students with...</h4>
-<div class="flexbox support-staff-graphic">
+<h4>Foster High School in Tukwila, Washington has 889 students. Washington state would provide the school with...</h4>
+<div class="support-staff-graphic">
 	<% data.forEach(function(d) { %>
-		<div>
-			<svg class="pie-chart">
-			</svg>
-			<p><%= d.text %></p>
-		</div>
+		<% if (d.percentage > 100) { %>
+			<div class="pie-container">
+				<svg width="60" height="60"><g transform="translate(30, 30)"><g class="arc"><path fill="#276baf" d="M1.83697019872103e-15,-30A30,30,0,1,1,-1.83697019872103e-15,30A30,30,0,1,1,1.83697019872103e-15,-30Z"></path></g><g class="arc"><path fill="#cccccc" d="M2.1134441994840666e-14,-30L0,0Z"></path></g></g></svg>
+				<svg width="60" height="60"><g transform="translate(30, 30)"><g class="arc"><path fill="#276baf" d="M1.83697019872103e-15,-30A30,30,0,1,1,-1.83697019872103e-15,30A30,30,0,1,1,1.83697019872103e-15,-30Z"></path></g><g class="arc"><path fill="#cccccc" d="M2.1134441994840666e-14,-30L0,0Z"></path></g></g></svg>
+				<svg width="60" height="60"><g transform="translate(30, 30)"><g class="arc"><path fill="#276baf" d="M1.83697019872103e-15,-30A30,30,0,1,1,-1.83697019872103e-15,30A30,30,0,1,1,1.83697019872103e-15,-30Z"></path></g><g class="arc"><path fill="#cccccc" d="M2.1134441994840666e-14,-30L0,0Z"></path></g></g></svg>
+				<svg class="pie-chart">
+				</svg>
+				<p><%= d.text %></p>
+			</div>
+		<% } %>
 	<% }) %>
+	<div class="flexbox">
+		<% data.forEach(function(d) { %>
+			<% if (d.percentage < 100) { %>
+				<div class="pie-container">
+					<svg class="pie-chart">
+					</svg>
+					<p><%= d.text %></p>
+				</div>
+			<% } %>
+		<% }) %>
+	</div>
 </div>
