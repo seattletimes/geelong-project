@@ -103,8 +103,14 @@ h2, h3, .byline, .body-text, .publish-date {
 	max-width: 680px;
 }
 
+h3 {
+	font-size: 1.4em;
+}
+
 .flexbox {
-	display: flex;
+	@media @tablet-up {
+		display: flex;
+	}
 }
 
 .graphic-container {
@@ -121,7 +127,7 @@ h2, h3, .byline, .body-text, .publish-date {
 
 .sidebar {
 	padding: 15px;
-	width: 300px;
+	width: 360px;
 	@media @tablet {
 		margin: auto;
 	}
@@ -152,7 +158,7 @@ h2, h3, .byline, .body-text, .publish-date {
 	}
 }
 
-.standalone img {
+.image--standalone img {
 	max-width: 1280px;
 	width: 100%;
 }
@@ -168,7 +174,13 @@ h2, h3, .byline, .body-text, .publish-date {
 }
 
 .graphic-text--small {
-	font-size: 0.65em;
+	font-size: 0.8em;
+}
+
+.outcomes__label {
+	font-size: 0.9em;
+	font-weight: bold;
+	margin: 0;
 }
 
 .support-staff-graphic.flexbox div {
@@ -212,13 +224,23 @@ h2, h3, .byline, .body-text, .publish-date {
 	border-radius: 3px;
 	background-color: @pink;
 	padding: 10px 20px;
-	width: 50%;
-	&:first-child {
-		margin-right: 10px;
+	@media @tablet-up {
+		width: 50%;
+		&:first-child {
+			margin-right: 10px;
+		}
+		&:last-child {
+			margin-left: 10px;
+		}
 	}
-	&:last-child {
-		margin-left: 10px;
-	}
+}
+
+.question {
+	font-weight: bold;
+}
+
+.red {
+	color: @red;
 }
 
 .answer-list {

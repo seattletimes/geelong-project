@@ -46,7 +46,7 @@
           </div>
         <% } else if (s.type === "comparison") { %>
           <div class="sidebar">
-            <% ["Greater Geelong", "King County"].forEach(function(d) { %>
+            <% ["Greater Geelong region", "King County"].forEach(function(d) { %>
               <div class="comparison-inner <%= d %>">
                 <h4 class="comparison-graphic__hed"><%= d %></h4>
                 <% json[s.value.sheet].forEach(function(e) { %>
@@ -56,7 +56,7 @@
             <% }) %>
           </div>
         <% } else if (s.type === "figure") { %>
-          <figure class="article__figure standalone">
+          <figure class="article__figure image--standalone">
             <img class="lazy" src="./assets/<%= s.value.file %>-ll.JPG" data-src="./assets/<%= s.value.file %>.JPG" alt="<%= s.value.caption %>">
             <figcaption class="caption"><%= s.value.caption %></figcaption>
           </figure>

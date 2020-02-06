@@ -1,6 +1,6 @@
 intro_file: topvideo_LOOP.mp4
 
-h1: An ounce of prevention for at-risk students: It all starts with a question
+h1: An ounce of prevention for at-risk students
 h2: The Geelong Project, named for a Australian seaside town, aims to steer kids away from homelessness and dropping out before their situation becomes a crisis.
 byline: Story by Neal Morton | Videos by Lauren Frohne | Photos by Ellen Banner
 date: Feb. 9, 2020 at 6:00 am
@@ -81,9 +81,9 @@ Since 2013, the number of youth entering Geelong’s homeless system has been sl
 
 {.graphic}
 hed: Early outcomes of The Geelong Project
-chatter: An evaluation of the pilot schools in Geelong found the number of dropouts, or early leavers as they’re called in Australia, fell by 20% as of 2018. Since 2013, the number of youth entering Geelong’s homeless system has been sliced nearly in half. (Describe what the graph is showing, that once pilot starts in 2013, homeless entries declines and yada yada)
+chatter: Since 2013, the number of dropouts — or early leavers , as they’re called in Australia — fell at the three schools where The Geelong Project launched that year. The city saw a steeper decline in the number of young people in the target age range (12-18 years) entering Geelong’s homeless system.
 partial: outcomesSmallMultiples
-source: David MacKenzie
+source: Source: David MacKenzie
 {}
 
 [.+text]

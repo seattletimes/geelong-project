@@ -4,12 +4,12 @@
 	var dropouts_data = json["outcomes-dropouts"],
 		homelessness_data = json["outcomes-homelessness"];
 
-	var margin = {top: 10, bottom: 30, left: 40, right: 10},
+	var margin = {top: 30, bottom: 30, left: 40, right: 10},
 		height = 200 - margin.top - margin.bottom,
 		width = 300 - margin.left - margin.right,
 		dropouts_categories = ["3 pilot schools", "All other schools"],
-		dropouts_colors = ["#faa85f", "#d1d3d4"],
-		dropouts_ticks = [0, 50, 100, 150, 200],
+		dropouts_colors = ["#d89253", "#d3d3d3"],
+		dropouts_ticks = [0, 50, 100, 150],
 		dropouts_colorScale = d3.scaleOrdinal()
 			.domain(dropouts_categories)
 			.range(dropouts_colors),
@@ -22,8 +22,8 @@
 			.domain([0, d3.max(dropouts_data, d => d["All other schools"])]),
 		dropouts_yAxis = d3.axisLeft()
 			.scale(dropouts_yAxis),
-		homelessness_categories = ["12–18 yrs", "19–20 yrs", "21–24 yrs"],
-		homelessness_colors = ["#d89253", "#276baf", "#85b541"],
+		homelessness_categories = ["12–18 yrs", "19–20 yrs"],
+		homelessness_colors = ["#4f84af", "#d3d3d3"],
 		homelessness_ticks = [0, 100, 200],
 		homelessness_colorScale = d3.scaleOrdinal()
 			.domain(homelessness_categories)
@@ -41,34 +41,58 @@
 <div class="flexbox">
 	<% dropouts_categories.forEach(function(cat) { %>
 		<div>
-			<p><%= cat %></p>
+			<p class="outcomes__label"><%= cat %></p>
 			<svg width="<%= width + margin.left + margin.right %>" height="<%= height + margin.top + margin.bottom %>">
+		  	<g class="y-axis" transform="translate(0, <%= margin.top %>)">
+		  		<% dropouts_ticks.forEach(function(t) { %>
+			  		<g transform="translate(0,<%= height - dropouts_yScale(t) %>)">
+			  			<text class="graphic-text graphic-text--small" x="0" y="-5"><%= t %></text>
+			  			<line x1="0" y1="0" x2="<%= width + margin.left %>" y2="0" stroke="#cccccc"></line>
+			  		</g>
+		  		<% }) %>
+		  	</g>
 			  <g transform="translate(<%= margin.left %>,<%= margin.top %>)">
 					<% dropouts_data.forEach(function(d, i) { %>
 				    <g transform="translate(<%= dropouts_xScale(d.year) %>)">
-				    	<text class="graphic-text" x="<%= dropouts_xScale.bandwidth() / dropouts_categories.length %>" y="<%= height + margin.top + 10 %>" text-anchor="middle"><%= d.year %></text>
+				    	<text class="graphic-text graphic-text--small" x="<%= dropouts_xScale.bandwidth() / dropouts_categories.length %>" y="<%= height + 15 %>" text-anchor="middle"><%= d.year %></text>
 			    		<rect width="<%= dropouts_xScale.bandwidth() %>" height="<%= dropouts_yScale(d[cat]) %>" x="0" y="<%= height - dropouts_yScale(d[cat]) %>" fill="<%= dropouts_colorScale(cat) %>"></rect>
 				    </g>
 					<% }) %>
+				</g>
+				<g class="annotation" transform="translate(<%= dropouts_xScale('’14') + dropouts_xScale.bandwidth() * 0.65 %>, 0)">
+					<line x1="0" y1="<%= margin.top - 5 %>" x2="0" y2="100" stroke="#111111"></line>
+					<text y="17" class="graphic-text graphic-text--small">Geelong Project starts</text>
 				</g>
 			</svg>
 		</div>
 	<% }) %>
 </div>
 
-<h4 class="graphic-hed">12- to 24-year-olds entering the homeless system</h4>
+<h4 class="graphic-hed">12- to 20-year-olds entering the homeless system</h4>
 <div class="flexbox">
 	<% homelessness_categories.forEach(function(cat) { %>
 		<div>
-			<p><%= cat %></p>
+			<p class="outcomes__label"><%= cat %></p>
 			<svg width="<%= width + margin.left + margin.right %>" height="<%= height + margin.top + margin.bottom %>">
+				<g class="y-axis" transform="translate(0, <%= margin.top %>)">
+		  		<% homelessness_ticks.forEach(function(t) { %>
+			  		<g transform="translate(0,<%= height - homelessness_yScale(t) %>)">
+			  			<text class="graphic-text graphic-text--small" x="0" y="-5"><%= t %></text>
+			  			<line x1="0" y1="0" x2="<%= width + margin.left %>" y2="0" stroke="#cccccc"></line>
+			  		</g>
+		  		<% }) %>
+		  	</g>
 			  <g transform="translate(<%= margin.left %>,<%= margin.top %>)">
 					<% homelessness_data.forEach(function(d, i) { %>
 				    <g transform="translate(<%= homelessness_xScale(d.year) %>)">
-				    	<text class="graphic-text graphic-text--small" x="<%= homelessness_xScale.bandwidth() / homelessness_categories.length %>" y="<%= height + margin.top + 10 %>" text-anchor="middle"><%= d.year %></text>
+				    	<text class="graphic-text graphic-text--small" x="<%= homelessness_xScale.bandwidth() / homelessness_categories.length %>" y="<%= height + 15 %>" text-anchor="middle"><%= d.year %></text>
 			    		<rect width="<%= homelessness_xScale.bandwidth() %>" height="<%= homelessness_yScale(d[cat]) %>" x="0" y="<%= height - homelessness_yScale(d[cat]) %>" fill="<%= homelessness_colorScale(cat) %>"></rect>
 				    </g>
 					<% }) %>
+					<g class="annotation" transform="translate(<%= homelessness_xScale('’14') %>, 0)">
+						<line x1="0" y1="<%= margin.top - 5 %>" x2="0" y2="100" stroke="#111111"></line>
+						<text y="17" class="graphic-text graphic-text--small">Geelong Project starts</text>
+					</g>
 				</g>
 			</svg>
 		</div>
