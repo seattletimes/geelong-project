@@ -1,0 +1,38 @@
+[
+  {
+    "role": "Reporter",
+    "name": "Neal Morton"
+  },
+  {
+    "role": "Video journalist",
+    "name": "Lauren Frohne"
+  },
+  {
+    "role": "Photo journalist\n",
+    "name": "Ellen Banner"
+  },
+  {
+    "role": "Story editor",
+    "name": "Joy Resmovits"
+  },
+  {
+    "role": "Photo editor",
+    "name": "Fred Nelson"
+  },
+  {
+    "role": "Graphics editor",
+    "name": "Emily M. Eng"
+  },
+  {
+    "role": "Designer and developer",
+    "name": "Hilary Fung"
+  },
+  {
+    "role": "Producer",
+    "name": "?"
+  },
+  {
+    "role": "Project coordinator",
+    "name": "Laura Gordon"
+  }
+]
