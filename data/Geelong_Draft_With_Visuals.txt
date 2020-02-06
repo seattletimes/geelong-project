@@ -69,7 +69,7 @@ In Seattle, where images of needles and tents have come to symbolize the regionâ
 
 {.figure}
 file: Geelong_Construction_neighborhood
-caption: Caption goes here
+caption: A housing development is being built south of downtown Geelong, Australia. Many people are moving from other areas of Australia to Geelong because it is less expensive and there are job opportunities, so construction is booming. But the shortage of housing is also contributing to a growing homeless problem. (Ellen M. Banner / The Seattle Times)
 {}
   
 
@@ -117,7 +117,7 @@ Federal law doesnâ€™t allow housing agencies to help families who â€œcouch surfâ
 
 {.figure}
 file: Geelong_amber_counselor
-caption: Caption goes here
+caption: Amber Gibson, an early-intervention worker with The Geelong Project, chats with a teacher at North Geelong Secondary College in Geelong, Australia, during a multicultural festival at the school.
 {}
   
 
@@ -158,7 +158,7 @@ The lowest level prompts occasional check-ins and group sessions on bullying, do
 {.figure}
 class: inset
 file: Geelong_NGeelongSecCol_office
-caption: Caption goes here
+caption: Amber Gibson, left, an early-intervention worker, works with Tina Doyle, a "well-being team" leader at North Geelong Secondary College in Geelong, Australia. (Ellen M. Banner / The Seattle Times)
 {}
   
 
@@ -166,7 +166,7 @@ caption: Caption goes here
 {.figure}
 class: inset
 file: Geelong_NGeelongSecCol_diversity
-caption: Caption goes here
+caption: Students at Australia's North Geelong Secondary College wear apparel from their home countries as they march in a parade as part of a multicultural festival. (Ellen M. Banner / The Seattle Times)
 {}
   
 
@@ -181,7 +181,7 @@ Today, many refugees and asylum-seekers live in those homes. And the children th
 
 {.figure}
 file: Geelong_students_foosball
-caption: Caption goes here
+caption: Emma McKie, left, an early-intervention intern, plays a game with Northern Bay students. During a class outing, students ate, played games and had discussions. (Ellen M. Banner / The Seattle Times)
 {}
   
 
@@ -201,7 +201,7 @@ The point, she said, is that unlike parents or teachers, Geelong staffers arenâ€
 {.figure}
 class: inset
 file: Geelong_counselor
-caption: Kylie Hodgson, who works with The Geelong Project, and whose specialty is building relationships with young people, speaks with a student at Northern Bay College in Geelong.
+caption: Kylie Hodgson builds relationships with young people as part of her work as an early-intervention specialist. The Geelong Project aims to steer  students away from homelessness or dropping out of school. (Ellen M. Banner / The Seattle Times)
 {}
   
 
@@ -251,7 +251,7 @@ So he started working in schools and oversaw whatâ€™s known in Australia as a we
 
 {.graphic}
 hed: Support staff in Geelong and King County schools
-chatter: In Geelong, schools fill state-funded well-being teams with social workers, counselors, doctors, nurses and first-aid workers. Washington, meanwhile, provides schools with a fraction of the funding for even one well-being position. A typical high school of 600 students, for example, receives just 1.5% of the salary for a full-time social worker.
+chatter: In Geelong, schools fill state-funded wellbeing teams with social workers, counselors, doctors, nurses and first-aid workers. Washington, meanwhile, provides schools with a fraction of the funding for even one wellbeing position.
 partial: supportStaff
 source: Source: Office of Superintendent of Public Instruction
 {}
@@ -355,21 +355,21 @@ Perhaps the biggest challenge is time.
 
 {.figure}
 file: Geelong_SkylineAtDusk
-caption: Caption goes here
+caption: Geelong, Australia, is a port city of about 250,000. The popular Eastern Beach public swimming area is surrounded by a two-level, shark-proof promenade. (Ellen M. Banner / The Seattle Times)
 {}
   
 
 
 {.figure}
 file: Geelong_street_scene
-caption: Caption goes here
+caption: Downtown Geelong, Australia, has a bustling shopping and restaurant district. (Ellen M. Banner / The Seattle Times)
 {}
   
 
 
 {.figure}
 file: Geelong_walking_to_project
-caption: Caption goes here
+caption: Students from Northern Bay in Geelong, Australia, walk to a nearby center for relaxation and discussions as part of The Geelong Project. (Ellen M. Banner / The Seattle Times)
 {}
   
 
