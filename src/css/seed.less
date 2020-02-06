@@ -108,7 +108,7 @@ h2, h3, .byline, .body-text, .publish-date, .figure--inline {
 
 .figure--full {
 	margin-top: 100px;
-	margin-bottom: 100px;
+	margin-bottom: 70px;
 	max-width: 1280px;
 	@media (max-width: 1280px) {
 		margin-left: 0;
@@ -224,8 +224,8 @@ h3 {
 
 .comparison-inner {
 	border-style: solid;
-	border-width: 2px;
-	border-left-width: 16px;
+	border-radius: 5px;
+	border-width: 3px;
 	padding: 10px 10px 10px 14px;
 	&:first-child {
 		margin-bottom: 10px;
@@ -280,16 +280,18 @@ h3 {
 	font-weight: bold;
 	margin: 0;
 }
-
-@media @desktop-up {
-	.flowchart__step {
+.flowchart__step {
+	@media @desktop-up {
 		float: left;
 		width: ~"calc(33% - 18px)";
 		height: 165px;
 	}
+	@media (min-width: 945px) {
+		height: 145px;
+	}
 }
 .flowchart__box {
-	border: 1px solid @df-light-gray;
+	border: 1px solid @geelong;
 	border-radius: 5px;
 	margin: 0;
 	padding: 10px;
@@ -343,22 +345,25 @@ h3 {
 	font-size: 16px;
 }
 .arrow {
-	@media @desktop-up {
-		float: left;
-	  width: 0; 
-	  height: 0;
-	  margin: 72px 5px; 
-	  border-top: 10px solid transparent;
-	  border-bottom: 10px solid transparent;
-	  border-left: 10px solid @df-light-gray;
-	}
 	@media @tablet {
 		height: 0; 
 		margin: 5px auto;
 	  width: 0; 
 	  border-left: 10px solid transparent;
 	  border-right: 10px solid transparent;
-	  border-top: 10px solid @df-light-gray;
+	  border-top: 10px solid @geelong;
+	}
+	@media @desktop-up {
+		float: left;
+	  width: 0; 
+	  height: 0;
+	  margin: 77px 5px; 
+	  border-top: 10px solid transparent;
+	  border-bottom: 10px solid transparent;
+	  border-left: 10px solid @geelong;
+	}
+	@media (min-width: 945px) {
+		margin: 67px 5px;
 	}
 }
 
@@ -391,7 +396,7 @@ h3 {
 }
 .question-container {
 	border: 1px solid darken(@geelong, 15%);
-	border-radius: 3px;
+	border-radius: 5px;
 	background-color: lighten(@geelong, 30%);
 	padding: 10px 20px;
 	@media @tablet {
