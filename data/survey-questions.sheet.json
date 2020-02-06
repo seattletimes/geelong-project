@@ -1,6 +1,6 @@
 [
   {
-    "Geelong survey: 93 questions total": "24% about housing/financial stability",
+    "Geelong survey: 93 questions total": "22 about housing or financial stability",
     "Examples": "Do you feel safe at home?"
   },
   {
@@ -12,7 +12,7 @@
     "Examples": "Over the past 12 months, at any time, have you stayed with friends/relatives when you really did not to be at home with your parent(s) and familiy?"
   },
   {
-    "Geelong survey: 93 questions total": "24% about school experience",
+    "Geelong survey: 93 questions total": "22 about school experience",
     "Examples": "I enjoy going to school each day."
   },
   {
@@ -24,7 +24,7 @@
     "Examples": "If I was able to get a full-time job, I would leave school now."
   },
   {
-    "Geelong survey: 93 questions total": "49% about physical/mental wellbeing",
+    "Geelong survey: 93 questions total": "46 about physical or mental wellbeing",
     "Examples": "I usually take things in my stride."
   },
   {
@@ -36,6 +36,6 @@
     "Examples": "I can get through difficult times because I have experienced difficulty before."
   },
   {
-    "Geelong survey: 93 questions total": "Note: Percentages may not total 100 due to informational/identity questions about age, grade level, etc."
+    "Geelong survey: 93 questions total": "Note: The total doesn't add up to 93 because three asked for biographical information"
   }
 ]

@@ -7,18 +7,24 @@ date: Feb. 9, 2020 at 6:00 am
 
 [+sections]
 [.+text]
-GEELONG, Australia — Over the next month, as schools here begin a new year, the staff at seven campuses will interrupt homerooms, ask students to put away assignments and hand each one of them a nearly 100-question survey.
+GEELONG, Australia — Over the next month, as schools here begin a new year, the staff at seven campuses will interrupt homerooms, ask students to put away assignments and hand each one of them a nearly <a href="https://www.documentcloud.org/documents/6767776-The-Geelong-Project-Student-Survey.html">100-question survey</a>.
 
 Teachers and translators will help explain the questions, some of them deeply personal: How often do you go to bed hungry? When was the last time you crashed on a friend’s couch? Do you feel safe at home?
 
-The survey isn’t anonymous, and students may wonder why their school needs such information. But there’s a reason for the prying queries — prevention, a chance to steer young people away from dropping out of school or becoming homeless.
-
-“Youth homelessness in Australia and around the world is just such a massive issue,” said Kylie Hodgson. “And there just has to be something to be done to stop it.”
-
-Like Seattle, this port city of about 250,000 has struggled to absorb new workers and residents. A popular waterfront park straddles Geelong’s homeless youth shelter and its first pair of gleaming apartment and office towers.
+The top of the survey acknowledges how intrusive it may feel: "Your answers to various questions will be treated in strict confidence," the bold, black print states against a pink background. "A few questions might seem a little personal, but please have the confidence to answer honestly."
 []
 
 h3: Locator map: Show canberra, sydney, melbourne and geelong labeled w/ a geelong inset
+
+[.+text]
+There’s a reason for the prying queries: prevention, a chance to steer young people away from dropping out of school or becoming homeless.
+
+“Youth homelessness in Australia and around the world is just such a massive issue,” Kylie Hodgson said. “And there just has to be something to be done to stop it.”
+
+Like Seattle, this port city has struggled to absorb new workers and residents. A popular waterfront park straddles Geelong’s homeless youth shelter and its first pair of gleaming apartment and office towers.
+
+But there’s another, less-gleaming side.
+[]
 
 {.comparison}
 sheet: comparisons-population
@@ -26,30 +32,26 @@ source: Sources: Australian Bureau of Statistics, U.S. Census Bureau
 {}
 
 [.+text]
-But there’s another, less-gleaming side.
+Twice a week, Hodgson drives past a shuttered Ford factory and into <a href="https://www.abc.net.au/news/2018-06-05/geelong-northern-bay-college-asks-community-to-sponsor-a-student/9812670">a neighborhood</a> identified as one of Australia’s most disadvantaged. The program worker meets with dozens of students at Northern Bay College, a campus serving students between grades 9 and 12 that became an early adopter in a regional effort to keep young people off the streets and in school.
 
-Twice a week, Hodgson drives past a shuttered Ford factory and into a neighborhood identified as one of Australia’s most disadvantaged. The program worker meets with dozens of students at Northern Bay College, a campus serving students between grades 9 and 12 that became an early adopter in a regional effort to keep young people off the streets and in school.
+The approach, which has shown early success, will soon find a new home in King County. The Tukwila School District plans to launch its own pilot later this year; others may follow. Last fall, about 1,700 students took <a href="https://www.documentcloud.org/documents/6767777-Project-Upstream-Hopkins-student-survey.html">a first round</a> of surveys in a suburban school district west of Minneapolis.
 
-The approach, which has shown early success, will soon find a new home in King County.
-
-Last fall, about 1,700 students took a first round of surveys in a suburban school district west of Minneapolis. And in South King County, the Tukwila school district plans to launch its own pilot later this year; others may follow.
-
-Seattle considered joining the local pilot, but so far has demurred from committing to participate. The discussion comes as educators and advocates across Washington are pushing the Legislature to spend billions to provide more counselors and nurses.
+Seattle considered joining the local pilot, but so far has demurred from committing to participate. The discussion comes as educators and advocates across Washington are pushing the Legislature to <a href="https://www.seattletimes.com/education-lab/it-takes-7200-students-before-washington-state-will-pay-for-a-middle-schools-nurse-how-much-will-it-cost-to-change-that/">spend billions</a> for more counselors and nurses.
 
 The idea sounds simple: Early intervention. The student surveys trigger a series of solutions — from group counseling to emergency aid — designed to prevent young people from teetering into homelessness.
 []
 
 {.brightcove}
 brightcove_id: 6126973456001
-caption: Confronted with rising homelessness, service providers and community leaders in Geelong developed an early intervention approach embedded in schools. The results have compelled U.S. school districts to adopt it. (Lauren Frohne / The Seattle Times)
+caption: Confronted with rising homelessness, service providers and community leaders in Geelong developed an early intervention approach embedded in schools. The results have compelled U.S. school districts to adopt it.
 {}
 
 [.+text]
-The Geelong Project, as it’s known here, also reveals who’s on the brink of disengaging from school entirely. It’s a critical piece of the program, because research shows young adults who didn’t finish high school are 4.5 times more likely to experience homelessness.
+<a href="http://www.thegeelongproject.com.au/">The Geelong Project</a>, as it’s known here, also reveals who’s on the brink of disengaging from school entirely. It’s a critical piece of the program, because <a href="https://www.chapinhall.org/wp-content/uploads/ChapinHall_VoYC_Education-Brief.pdf">research shows</a> young adults who didn’t finish high school are 4.5 times more likely to experience homelessness.
 
-“Think about it as a seesaw,” said Anne-Marie Ryan, who leads the Geelong Region Local Learning and Employment Network.
+“Think about it as a seesaw,” said Anne-Marie Ryan, <a href="http://www.grllen.com.au/about/our-team">who leads</a> the Geelong Region Local Learning and Employment Network.
 
-On one side, she said, are kids still in school, with families. But students who already dropped out or left home tip the other side down. “Our goal is to reweight the seesaw with a lot more early intervention,” Ryan said, “and over time we’ve seen the balance tip the other way.”
+On one side, she said, are kids still in school, with families. But students who dropped out or left home tip the other side down. “Our goal is to reweight the seesaw with a lot more early intervention,” Ryan said, “and over time we’ve seen the balance tip the other way.”
 
 The simplicity is deceptive — especially given the urgency of addressing homelessness back home.
 []
@@ -59,10 +61,10 @@ file: scenesetter_LOOP.mp4
 caption: Geelong, a port city of about 250,000, has struggled to absorb new workers and residents, many of whom are coming from nearby Melbourne. The city hugs Corio Bay where the “Geelong bollards” dot the waterfront and represent aspects of the city’s history and culture. The figures are made by artist Jan Mitchell from reclaimed timber pier pylons. 
 {}
 
-h3:  ‘Not a quick fix’
+h3: “Not a quick fix”
 
 [.+text]
-In Seattle, where images of needles and tents have come to symbolize the region’s stark inequality, the debate around homelessness often focuses on housing. Some call for increasing police enforcement to clear our encampments.
+In Seattle, where images of needles and tents have come to symbolize the region’s stark inequality, the debate around homelessness often focuses on housing. Some call for increasing police enforcement to clear encampments.
 []
 
 {.figure}
@@ -71,39 +73,46 @@ caption: Caption goes here
 {}
   
 
-[.+text]
-On a recent visit to Geelong, a bayside town where many work in manufacturing or retail, the songs of Australia’s native birds echoed through streets that seemed clear of “rough sleepers,” as they’re known here, over the course of two weeks. City parks — which families filled during a public holiday for a horse race — also appeared deserted overnight.
 
-Few residents were aware of the Geelong Project — a program that, when successful, prevents the type of homelessness that Seattle’s used to seeing. It costs about $275,000 to $350,000 (American) annually.
+[.+text]
+On a recent visit to Geelong, a bayside town of <a href="https://itt.abs.gov.au/itt/r.jsp?RegionSummary&amp;region=22750&amp;dataset=ABS_REGIONAL_LGA2018&amp;geoconcept=LGA_2018&amp;maplayerid=LGA2018&amp;measure=MEASURE&amp;datasetASGS=ABS_REGIONAL_ASGS2016&amp;datasetLGA=ABS_REGIONAL_LGA2018&amp;regionLGA=LGA_2018&amp;regionASGS=ASGS_2016">about 250,000</a> where <a href="https://www.rdv.vic.gov.au/information-portal/regional-snapshot?geographyNames=Greater+Geelong+%28C%29%2CVictoria&amp;geographyType=">many work</a> in health care, manufacturing or retail, the songs of Australia’s native birds echoed through streets that seemed clear of “rough sleepers,” as they’re known here, over the course of two weeks. City parks — which families filled during a public holiday for a horse race — also appeared deserted overnight.
+
+Few residents were aware of the Geelong Project — a program that, when successful, prevents the type of homelessness that Seattle’s used to seeing. It costs about $275,000 to $350,000 (U.S.) annually.
 
 Since 2013, the number of youth entering Geelong’s homeless system has been sliced nearly in half. And dropouts have also declined, by 20% as of 2018.
 []
 
 {.graphic}
 hed: Early outcomes of The Geelong Project
-chatter: Since 2013, the number of dropouts — or early leavers , as they’re called in Australia — fell at the three schools where The Geelong Project launched that year. The city saw a steeper decline in the number of young people in the target age range (12-18 years) entering Geelong’s homeless system.
+chatter: Since 2013, the number of dropouts — or early leavers, as they’re called in Australia — has fallen at the three schools where The Geelong Project launched that year. The city saw a steeper decline in the number of young people in the target age range (12-18 years) entering Geelong’s homeless system.
 partial: outcomesSmallMultiples
 source: Source: David MacKenzie
 {}
 
 [.+text]
-“The thing with early intervention: It’s not a quick fix. It’s something that is quite slow,” said Sandy Meessen, team leader of the Geelong Project. “It’s taken six years for us to see that.”
+“The thing with early intervention: It’s not a quick fix. It’s something that is quite slow,” said Sandy Meessen, team leader of The Geelong Project. “It’s taken six years for us to see that.”
 
-Those results are still early. The state education department paid to expand the Geelong Project to four new school last year, and has commissioned an independent evaluation. But the initial outcomes inspired the program’s spread across Australia; to Ontario, Canada; and now, the U.S.
+Those results are still early. The Victoria state education department <a href="https://www.bcyf.org.au/barwon-child-youth-family-welcomes-2-8-million-commitment-for-the-geelong-project/">paid to expand</a> the Geelong Project to four new schools last year, and has commissioned an independent evaluation. But the initial outcomes inspired the program’s spread across Australia; to <a href="https://www.raisingtheroof.org/the-upstream-project-pilot-phase-updates/">Ontario, Canada</a>; and now, <a href="https://www.hopkinsschools.org/district-news/news/hopkins-public-schools-participate-groundbreaking-homelessness-prevention-project">the U.S.</a>
 
 Still, the program has skeptics.
 
 In Geelong, some educators wonder if it duplicates their work. In King County, advocates question what relevant solutions a city as homogeneous as Geelong, where 3 in 4 residents cite English, Australian, Irish, Scottish or German ancestry, can offer a more diverse population.
 
-“I’m thrilled if the (Geelong) region has found what works for them,” said Marshaun Barber, executive director of All Seattle Kids Home. She wondered how the model accounts for racial disparities in America’s housing and criminal justice systems.
+“I’m thrilled if the (Geelong) region has found what works for them,” said Marshaun Barber, executive director of <a href="https://www.allseattlekidshome.org/">All Seattle Kids Home</a>. She wondered how the model accounts for racial disparities in America’s housing and criminal-justice systems.
 
 “These factors are sadly, uniquely American and in some ways uniquely Washington,” Barber said. “Any comprehensive strategy has to accommodate for that.”
+[]
 
-But as local leaders prepare to bet on an idea that seems promising down under, they can learn from its rocky start in Geelong — and they’ll have to rethink three decades of federal policy that largely intervenes only after people lose their housing.
+{.dont-miss}
+stories: stories-geelong
+{}
+
+[.+text]
+But as local leaders prepare to bet on an idea that seems promising Down Under, they can learn from its <a href="https://www.seattletimes.com/education-lab/king-county-may-borrow-an-idea-from-australia-to-reduce-youth-homelessness-readers-wanted-to-know-how-much-does-it-cost/">rocky start</a> in Geelong — and they’ll have to rethink three decades of U.S. federal policy that largely intervenes only after people lose their housing.
 
 Federal law doesn’t allow housing agencies to help families who “couch surf” with friends or relatives, leaving close to 37,000 homeless students in Washington without much of a safety net.
 
-“The notion that we have to wait so long, it’s both immoral and ineffective,” said Barbara Duffield, executive director of SchoolHouse Connection, a Washington, D.C.-based nonprofit working to overcome homelessness through education. “And it’s failing in spectacular fashion.”
+“The notion that we have to wait so long, it’s both immoral and ineffective,” said Barbara Duffield, executive director of <a href="https://www.schoolhouseconnection.org/">SchoolHouse Connection</a>, a Washington, D.C.-based nonprofit working to overcome homelessness through education. “And it’s failing in spectacular fashion.”
 []
 
 {.figure}
@@ -113,10 +122,12 @@ caption: Caption goes here
   
 
 
-h3: ‘A bespoke response’
+h3: “A bespoke response”
 
 [.+text]
 It was 2011, and rising homelessness in Melbourne spilled into Geelong, driven by rising rents and lack of public housing.
+
+At the time, about 4% of Geelong’s youth experienced homelessness. Only 2% of young people who secured short-term housing returned to their families’ homes, and up to 250 dropped out of school each year. Youth unemployment topped 30%.
 []
 
 {.comparison}
@@ -125,13 +136,11 @@ source: Sources: City of Greater Geelong, Council to Homeless Persons, state of 
 {}
 
 [.+text]
-At the time, about 4% of Geelong’s youth experienced homelessness. Only 2% of young people who secured short-term housing ever returned to their families’ homes, and up to 250 dropped out of school each year. Youth unemployment topped 30%.
-
 That prompted local service providers and community leaders to convene, and over two years, debate solutions.
 
 “Everyone invited to that talking table thought their organization was the most important piece,” Ryan said. “You can’t actually deal in pieces. You have to deal in wholes.”
 
-They reached a common understanding of the problem: Young people could only get help once they were already in crisis. And they had to navigate a patchwork of agencies, with mental health support divorced from job training or rental assistance for their families.
+They reached a common understanding of the problem: Young people could only get help once they were in crisis. And they had to navigate a patchwork of agencies, with mental-health support divorced from job training or rental assistance for their families.
 
 The group arrived at a potential solution: Form a community coalition, one that connects schools and “upstream” services through a central clearinghouse. To find the students in need, they designed the schoolwide surveys.
 []
@@ -143,7 +152,8 @@ After the survey, a team from a local youth agency interviews students through a
 
 The lowest level prompts occasional check-ins and group sessions on bullying, domestic violence and self-esteem. Students at the top tier get paired with program workers like Hodgson, who meet them weekly and find the existing services — rental assistance, therapy, tutors — to keep them off the streets and in school.
 
-“It’s a bespoke response to your individual need,” said Northern Bay principal Ken Massari, who welcomed the Geelong Project to his campus six years ago.
+“It’s a bespoke response to your individual need,” said <a href="http://www.northernbaycollege.vic.edu.au/goldsworthy/index">Northern Bay</a> principal Ken Massari, who welcomed The Geelong Project to his campus six years ago.
+[]
 
 {.figure}
 class: inset
@@ -161,7 +171,8 @@ caption: Caption goes here
   
 
 
-A graduate of Northern Bay himself, Massari shared a history lesson of the neighborhood: When the Ford plant opened after World War I, veterans streamed into the sleepy tourist town for work in Geelong’s growing industrial hub. Families, including his, could afford new homes close to Corio Bay — which the local Aboriginal people called “Jillong.”
+[.+text]
+A graduate of Northern Bay himself, Massari shared a history lesson of the neighborhood: When the Ford plant opened after World War I, veterans streamed into the sleepy tourist town for work in Geelong’s growing industrial hub. Families, including his, could afford new homes close to Corio Bay — which the local Aboriginal people <a href="https://www.britannica.com/place/Geelong">called “Jillong.”</a>
 
 Today, many refugees and asylum-seekers live in those homes. And the children they send to school, Massari said, often carry generational poverty and trauma to class. So too with Northern Bay’s 150 or so Aboriginal students.
 
@@ -182,11 +193,9 @@ Down the hall from Massari’s office, a poster declared, “What you say in her
 
 It hovered over Hodgson’s head in an office crammed with stacks of chairs and desks. Her phone buzzed with a text message from a 16-year-old who contemplated running away from home.
 
-“Don’t be surprised if I just shut down on you,” the text warned.
+“Don’t be surprised if I just shut down on you,” the text warned. The young woman’s message didn’t surprise Hodgson, who had met with her weekly for months.
 
-The young woman’s message didn’t surprise Hodgson, who had met with her weekly for months.
-
-The point, she said, is that, unlike parents or teachers, Geelong staffers aren’t authority figures.
+The point, she said, is that unlike parents or teachers, Geelong staffers aren’t authority figures.
 []
 
 {.figure}
@@ -208,7 +217,7 @@ The latest development: Dad left again, possibly for good.
 
 “We can’t change that,” the young woman replied.
 
-With Hodgson’s help, the young woman had recently gotten back on track to graduate on time. She learned to balance the demands of work and home and school. She even started dreaming of how she would spend a gap year before university.
+With Hodgson’s help, the student had recently gotten back on track to graduate on time. She learned to balance the demands of work and home and school. She even started dreaming of how she would spend a gap year before university.
 
 “It’s an exciting time for you, despite being a bad year,” Hodgson said.
 
@@ -229,15 +238,15 @@ caption: At Northern Bay College’s Goldsworthy campus, students are encouraged
 h3: A foundation of support
 
 [.+text]
-Long before he joined the Geelong Project last year, Chris Singh learned what can happen to young people who don’t get help.
+Long before he joined The Geelong Project last year, Chris Singh learned what can happen to young people who don’t get help.
 
-Singh previously worked as a caseworker in Melbourne, the state capital about 50 miles away, where he tried to support adults coming out of jail and back into society. But he came to believe that was too late.
+Singh previously was a caseworker in Melbourne, the state capital about 50 miles away, where he tried to support adults coming out of jail and back into society. But he came to believe that was too late.
 
 “The older people get, the harder it is for them to change,” Singh said. “When you’re an adult … you’re sort of thrown to the wolves.”
 
 So he started working in schools and oversaw what’s known in Australia as a well-being team. Backed by state funding, principals fill each team with full-time social workers, counselors, doctors, nurses and first-aid workers.
 
-(Washington state provides schools with a fraction of the funding for even one well-being position. A high school needs to enroll 40,000 students to generate enough money to hire a social worker; 85,714 for a school psychologist.)
+(Washington state provides schools with <a href="https://www.seattletimes.com/education-lab/i-didnt-know-it-was-that-bad-students-learn-about-washingtons-school-funding-system/">a fraction</a> of the funding for even one well-being position. A high school would need to enroll 40,000 students to generate enough money to hire a social worker; 85,714 for a school psychologist.)
 []
 
 {.graphic}
@@ -248,11 +257,13 @@ source: Source: Office of Superintendent of Public Instruction
 {}
 
 [.+text]
-Still, Singh said even the well-being teams can only do so much.
+Still, Singh said, the well-being teams can only do so much.
 
 “They have limited capacity to do more outreach sort of things because they are putting out the spot fires in schools,” he said.
 
 Now Singh splits his time as an early-intervention worker between two Geelong schools. After learning of a 16-year-old who had missed weeks of school, Singh took the young woman out for hot chocolate. They discussed her home life, a conversation that prompted him to call protective services and connect her with counseling.
+
+Another student broke his bicycle, so Singh found him a replacement.
 []
 
 {.comparison}
@@ -261,11 +272,9 @@ source: Sources: Australian Bureau of Statistics, U.S. Census Bureau
 {}
 
 [.+text]
-Another student broke his bike, so Singh found him a replacement.
-
 “We have the capacity to go out and sort of take young people who absolutely hate school to do things that (aren’t) in a school setting,” Singh said.
 
-The federal government also pitches in, with cash assistance for low-income youth and free or cheap access to mental-health services. Still, waitlists across Geelong and Australia often extend for months, said Laura Vecchio, an early-intervention worker focused on mental health.
+The federal government also pitches in, with <a href="https://www.servicesaustralia.gov.au/individuals/services/centrelink/youth-allowance">cash assistance</a> for low-income youth and free or low-cost access to <a href="https://headspace.org.au/">mental-health services</a>. Still, waitlists across Geelong and Australia often extend for months, said Laura Vecchio, an early-intervention worker focused on mental health.
 
 “Their anxiety and depression only gets bigger” as they wait, Vecchio said. “Early intervention helps them get out of bed, helps them get the services so their mental health doesn’t become so obvious to the outside.”
 
@@ -277,7 +286,7 @@ One young woman approached with red eyes. After helping her through a romantic c
 
 But the 16-year-old didn’t have a problem. He wanted to share some artwork, a practice Vecchio encouraged to keep his thoughts positive.
 
-Before Vecchio’s assistance, the young man said he often spent his time outside school alone in his room, lights off. Anxiety and depression made it difficult to maintain a job and friends.
+Before Vecchio’s assistance, the teen said, he often spent his time outside school alone in his room, lights off. Anxiety and depression made it difficult to maintain a job and friends.
 
 He credited Vecchio for teaching him to work through his abandonment issues and the importance of finding a role model after his father left.
 
@@ -292,25 +301,25 @@ caption: Geelong's Eastern Beach public swimming pool, surrounded by a wooden wa
 h3: Caveats
 
 [.+text]
-Unlike the staff at Northern Bay, school administrators who just recently started working with the Geelong Project can’t yet pinpoint ways in which it has been a game-changer.
+Unlike the staff at Northern Bay, school administrators who recently started working with The Geelong Project can’t yet pinpoint ways in which it has been a game-changer.
 
-One principal in Geelong described it as glitzy, noting it’s too early to assess its value. A social worker at another campus warned of “the hype,” saying “we’d survive without it.”
+One principal described it as glitzy, noting it’s too early to assess its value. A social worker at another campus warned of “the hype,” saying “we’d survive without it.”
 
 But in a longer conversation she welcomed the resources it brings.
 
 “The well-being office is open for the day-to-day crisis stuff,” she said. “We can’t interview 1,000 kids and pick out the ones who won’t seek us out for help. We can’t take them off campus for the help we can’t provide here.”
 
-Without the well-being teams and that foundation of support, could the Geelong Project work to curb long-term instability in King County? Or is our structure simply not compatible with an idea that hinges on making existing parts work better together?
+Without the well-being teams and that foundation of support, could The Geelong Project work to curb long-term instability in King County? Or is our structure simply not compatible with an idea that hinges on making existing parts work better together?
 
-“It’s not copy and paste,” said Matt Morton, a research fellow with Chapin Hall at the University of Chicago. He’s leading the U.S. pilots of what will be called the Upstream Project and cautioned against scrapping the model because it may not reach everyone.
+“It’s not copy and paste,” said Matt Morton, a research fellow with <a href="https://www.chapinhall.org/project/leading-on-youth-homelessness-prevention/">Chapin Hall</a> at the University of Chicago. He’s leading the U.S. pilots of what will be called <a href="https://www.hopkinsschools.org/district-news/news/hopkins-public-schools-participate-groundbreaking-homelessness-prevention-project">the Upstream Project</a> and cautioned against scrapping the model because it may not reach everyone.
 
-“We try to make very clear that this isn’t a silver bullet,” Morton said, adding that he’s heartened to see the city and county taking strides to help people and youth in particular who already are homeless.
+“We try to make very clear that this isn’t a silver bullet,” Morton said, adding that he’s heartened to see the city and county taking strides to help people and youth in particular who are homeless.
 
 In contrast to Australian schools, the U.S. has more bureaucracy.
 
 In King County, school districts have central offices and elected school boards. In Australia, there’s just the state and the principals, making it easier to act without prolonged debate and administrative hurdles.
 
-Duffield with the D.C.-based nonprofit said in a place like Seattle, “the cynicism and the state of affairs” could be a barrier. And in King County, the Upstream Project has come in fits and starts.
+Duffield, of SchoolHouse Connection, said in a place like Seattle, “the cynicism and the state of affairs” could be a barrier. And in King County, the Upstream Project has come in fits and starts.
 
 Seattle Public Schools was initially slated to join. At the time, School Board member and now-President Zachary DeWolf was a program manager with All Home, the county’s coordinating agency for homelessness, which was supposed to lead on the Upstream Project.
 
@@ -319,15 +328,15 @@ Emails obtained by The Seattle Times show DeWolf’s enthusiasm for the pilot pr
 
 {.graphic}
 hed: Student survey
-chatter: The 93-question Geelong Project survey asks students about their home life, experience at school and wellbeing.
+chatter: The 93-question Geelong Project survey asks students about their home life, experience at school and wellbeing. Here’s a sample of the questions.
 partial: surveyQuestions
-source: Note: Percentages may not total 100 due to informational/identity questions about age, grade level, etc. Source: Seattle Times analysis
+source: Note: The remaining questions asked for basic biographical information. Source: Seattle Times analysis
 {}
 
 [.+text]
-Instead, the district’s manager of homeless programs said SPS would focus on a partnership with the city, one which only helps students and families already in crisis, rather than preventing them from ending up homeless to begin with.
+Instead, the district’s manager of homeless programs said Seattle Public Schools (SPS) would focus on <a href="https://www.seattletimes.com/education-lab/three-months-into-seattles-new-600-million-plus-education-levy-where-has-the-money-been-going/">a partnership</a> with the city, one which only helps students and families in crisis, rather than preventing them from ending up homeless to begin with. In a statement, Tyra Williams, SPS student support-services manager, pointed to the district’s hiring more staff to support homeless youth; services and referrals for that population; and partnerships with several nonprofits and philanthropies that focus on identifying risk factors.
 
-Now, Schoolhouse Washington — the educational arm of Seattle-based nonprofit Building Changes — will launch the Upstream pilot in Tukwila.
+Now, <a href="https://schoolhousewa.org/">Schoolhouse Washington</a> — the educational arm of Seattle-based nonprofit Building Changes — will launch the Upstream pilot in Tukwila.
 
 Other school districts in South King County had flirted with the program, but want to see it work elsewhere before taking the plunge, said Mehret Tekle-Awarun, senior manager of education strategy for Building Changes.
 
@@ -337,7 +346,7 @@ A bidding process will open soon to see which community organizations can hire t
 
 “This is a collaborative, connective way of working together, not a prescribed method or that traditional, white savior approach,” she said.
 
-And, any local pilot will have to navigate America’s strong student privacy laws: Who can access responses on surveys about youths’ home lives?
+And, any local pilot will have to navigate America’s strong student-privacy laws: Who can access responses on surveys about youths’ home lives?
 
 Perhaps the biggest challenge is time.
 

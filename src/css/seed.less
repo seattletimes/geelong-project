@@ -101,6 +101,10 @@ h2, h3, .byline, .body-text, .publish-date {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 680px;
+	@media @tablet {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 }
 
 h3 {
@@ -114,10 +118,15 @@ h3 {
 }
 
 .graphic-container {
+	border-top: 1px solid @df-light-gray;
+	border-bottom: 1px solid @df-light-gray;
 	font-family: @df-sans;
+	margin-top: 40px;
+	margin-bottom: 40px;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 980px;
+	padding: 0 10px;
 	&::after {
 		clear: both;
 		content: "";
@@ -163,6 +172,10 @@ h3 {
 	width: 100%;
 }
 
+.dont-miss {
+	margin-bottom: 30px;
+}
+
 .legend-box {
 	display: inline-block;
 	height: 15px;
@@ -177,8 +190,38 @@ h3 {
 	font-size: 0.8em;
 }
 
+.outcomes-graphic-container h4 {
+	font-size: 1em;
+	margin-top: 0;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.outcomes__flexbox {
+	@media (min-width: 650px) {
+		display: flex;
+		margin: 0 auto;
+		width: 630px;
+	}
+}
+
+.outcomes__chart-container {
+	width: 300px;
+	@media (max-width: 650px) {
+		margin: 0 auto;
+	}
+	@media (min-width: 650px) {
+		&:first-child {
+			margin-right: 15px;
+		}
+		&:last-child {
+			margin-left: 15px;
+		}
+	}
+}
+
 .outcomes__label {
-	font-size: 0.9em;
+	font-size: 0.8em;
 	font-weight: bold;
 	margin: 0;
 }
