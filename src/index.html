@@ -69,7 +69,9 @@
           </figure>
         <% } else if (s.type === "brightcove") { %>
           <figure>
-            <iframe src="//players.brightcove.net/1509317113/Nk8AFQkhe_default/index.html?videoId=${<%= s.value.brightcove_id %>}" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
+            <div class="brightcove">
+              <iframe src="//players.brightcove.net/1509317113/Nk8AFQkhe_default/index.html?videoId=<%= s.value.brightcove_id %>" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""></iframe>
+            </div>
             <figcaption class="caption"><%= s.value.caption %></figcaption>
           </figure>
         <% } else if (s.type === "dont-miss") { %>
