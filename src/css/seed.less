@@ -97,13 +97,33 @@ h1 {
 	margin-top: 30vh;
 }
 
-h2, h3, .byline, .body-text, .publish-date {
+h2, h3, .byline, .body-text, .publish-date, .figure--inline {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 680px;
 	@media @tablet {
 		padding-left: 10px;
 		padding-right: 10px;
+	}
+}
+
+.figure--full {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	max-width: 1280px;
+	@media (max-width: 1280px) {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	@media (min-width: 1280px) {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.figure--inline, .figure--full {
+	img {
+		width: 100%;
 	}
 }
 
@@ -150,20 +170,6 @@ h3 {
 	}
 	@media (min-width: 1240px) {
 		margin-right: ~"calc(50% - 440px)";
-	}
-}
-
-.article__figure {
-	margin-top: 100px;
-	margin-bottom: 100px;
-	max-width: 1280px;
-	@media (max-width: 1280px) {
-		margin-left: 0;
-		margin-right: 0;
-	}
-	@media (min-width: 1280px) {
-		margin-left: auto;
-		margin-right: auto;
 	}
 }
 

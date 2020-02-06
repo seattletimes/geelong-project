@@ -57,6 +57,7 @@ The simplicity is deceptive — especially given the urgency of addressing homel
 []
 
 {.looper}
+class: figure--full
 file: scenesetter_LOOP.mp4
 caption: Geelong, a port city of about 250,000, has struggled to absorb new workers and residents, many of whom are coming from nearby Melbourne. The city hugs Corio Bay where the “Geelong bollards” dot the waterfront and represent aspects of the city’s history and culture. The figures are made by artist Jan Mitchell from reclaimed timber pier pylons. 
 {}
@@ -68,6 +69,7 @@ In Seattle, where images of needles and tents have come to symbolize the region�
 []
 
 {.figure}
+class: figure--inline
 file: Geelong_Construction_neighborhood
 caption: A housing development is being built south of downtown Geelong, Australia. Many people are moving from other areas of Australia to Geelong because it is less expensive and there are job opportunities, so construction is booming. But the shortage of housing is also contributing to a growing homeless problem. (Ellen M. Banner / The Seattle Times)
 {}
@@ -116,6 +118,7 @@ Federal law doesn’t allow housing agencies to help families who “couch surf�
 []
 
 {.figure}
+class: figure--full
 file: Geelong_amber_counselor
 caption: Amber Gibson, an early-intervention worker with The Geelong Project, chats with a teacher at North Geelong Secondary College in Geelong, Australia, during a multicultural festival at the school.
 {}
@@ -156,7 +159,7 @@ The lowest level prompts occasional check-ins and group sessions on bullying, do
 []
 
 {.figure}
-class: inset
+class: figure--inline
 file: Geelong_NGeelongSecCol_office
 caption: Amber Gibson, left, an early-intervention worker, works with Tina Doyle, a "well-being team" leader at North Geelong Secondary College in Geelong, Australia. (Ellen M. Banner / The Seattle Times)
 {}
@@ -164,7 +167,7 @@ caption: Amber Gibson, left, an early-intervention worker, works with Tina Doyle
 
 
 {.figure}
-class: inset
+class: figure--inline
 file: Geelong_NGeelongSecCol_diversity
 caption: Students at Australia's North Geelong Secondary College wear apparel from their home countries as they march in a parade as part of a multicultural festival. (Ellen M. Banner / The Seattle Times)
 {}
@@ -180,6 +183,7 @@ Today, many refugees and asylum-seekers live in those homes. And the children th
 []
 
 {.figure}
+class: figure--full
 file: Geelong_students_foosball
 caption: Emma McKie, left, an early-intervention intern, plays a game with Northern Bay students. During a class outing, students ate, played games and had discussions. (Ellen M. Banner / The Seattle Times)
 {}
@@ -199,7 +203,7 @@ The point, she said, is that unlike parents or teachers, Geelong staffers aren�
 []
 
 {.figure}
-class: inset
+class: figure--inline
 file: Geelong_counselor
 caption: Kylie Hodgson builds relationships with young people as part of her work as an early-intervention specialist. The Geelong Project aims to steer  students away from homelessness or dropping out of school. (Ellen M. Banner / The Seattle Times)
 {}
@@ -231,6 +235,7 @@ The student indulged a brief smile, grabbed her backpack and headed back to clas
 []
 
 {.looper}
+class: figure--full
 file: wellbeing_LOOP.mp4
 caption: At Northern Bay College’s Goldsworthy campus, students are encouraged to visit the well-being center staffed by a team of social workers and counselors that address a range of issues affecting their day-to-day lives. The school’s principal, Ken Massari, welcomed The Geelong Project to the school six years ago as an additional resource.  
 {}
@@ -294,6 +299,7 @@ He credited Vecchio for teaching him to work through his abandonment issues and 
 []
 
 {.looper}
+class: figure--full
 file: sunset_LOOP.mp4
 caption: Geelong's Eastern Beach public swimming pool, surrounded by a wooden walkway, is a popular recreation area at the edge of Corio Bay. It is adjacent to downtown Geelong, where the city’s first high-rise towers are being built, a signal of rapid population growth. 
 {}
@@ -354,6 +360,7 @@ Perhaps the biggest challenge is time.
 []
 
 {.figure}
+class: figure--full
 file: Geelong_SkylineAtDusk
 caption: Geelong, Australia, is a port city of about 250,000. The popular Eastern Beach public swimming area is surrounded by a two-level, shark-proof promenade. (Ellen M. Banner / The Seattle Times)
 {}

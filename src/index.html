@@ -56,19 +56,19 @@
             <% }) %>
           </div>
         <% } else if (s.type === "figure") { %>
-          <figure class="article__figure image--standalone">
+          <figure class="article__figure <%= s.value.class %>">
             <img class="lazy" src="./assets/<%= s.value.file %>-ll.JPG" data-src="./assets/<%= s.value.file %>.JPG" alt="<%= s.value.caption %>">
             <figcaption class="caption"><%= s.value.caption %></figcaption>
           </figure>
         <% } else if (s.type === "looper") { %>
-          <figure class="article__figure image--standalone">
+          <figure class="article__figure <%= s.value.class %>">
             <video src="./assets/<%= s.value.file %>" autoplay="" playsinline="" loop="" muted=""></video>
             <figcaption>
               <p class="caption"><%= s.value.caption %></p>
             </figcaption>
           </figure>
         <% } else if (s.type === "brightcove") { %>
-          <figure>
+          <figure class="figure--brightcove">
             <div class="brightcove">
               <iframe src="//players.brightcove.net/1509317113/Nk8AFQkhe_default/index.html?videoId=<%= s.value.brightcove_id %>" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""></iframe>
             </div>
