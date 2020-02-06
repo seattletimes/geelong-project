@@ -14,7 +14,7 @@ Teachers and translators will help explain the questions, some of them deeply pe
 The top of the survey acknowledges how intrusive it may feel: "Your answers to various questions will be treated in strict confidence," the bold, black print states against a pink background. "A few questions might seem a little personal, but please have the confidence to answer honestly."
 []
 
-h3: Locator map: Show canberra, sydney, melbourne and geelong labeled w/ a geelong inset
+partial: locatorMap
 
 [.+text]
 There’s a reason for the prying queries: prevention, a chance to steer young people away from dropping out of school or becoming homeless.
@@ -84,7 +84,7 @@ Since 2013, the number of youth entering Geelong’s homeless system has been sl
 
 {.graphic}
 hed: Early outcomes of The Geelong Project
-chatter: Since 2013, the number of dropouts — or early leavers, as they’re called in Australia — has fallen at the three schools where The Geelong Project launched that year. The city saw a steeper decline in the number of young people in the target age range (12-18 years) entering Geelong’s homeless system.
+chatter: Since 2013, the number of dropouts — or early leavers, as they’re known in Australia — has fallen at the three schools where The Geelong Project launched that year. The city saw a steeper decline in the number of young people in the target age range (12-18 years) entering Geelong’s homeless system.
 partial: outcomesSmallMultiples
 source: Source: David MacKenzie
 {}

@@ -3,7 +3,6 @@ setTimeout(() => paywall(12345678), 5000);
 
 require("waypoints/lib/noframework.waypoints.min");
 var d3 = Object.assign({}, require("d3-scale"), require("d3-shape"), require("d3-selection"));
-require("./brightcove");
 
 // once user has scrolled to beginning of story, fade out hero looper
 var beginning = document.querySelector("#beginning"),

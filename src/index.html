@@ -74,6 +74,9 @@
             </div>
             <figcaption class="caption"><%= s.value.caption %></figcaption>
           </figure>
+        <% } else if (s.type === "partial") { %>
+          <% path = "partials/_" + s.value + ".html" %>
+          <%= t.include(path) %>
         <% } else if (s.type === "dont-miss") { %>
           <% val = s.value.stories %>
           <%= t.include("partials/_dontMiss.html", {stories: val}) %>
