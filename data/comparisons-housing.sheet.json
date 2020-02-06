@@ -1,14 +1,14 @@
 [
   {
-    "Greater Geelong region": "Homelessness: 47 per 10,000 people",
-    "King County": "Homelessness: 54 per 10,000 people"
+    "Greater Geelong region": "Homelessness: <strong>47</strong> per 10,000 people",
+    "King County": "Homelessness: <strong>54</strong> per 10,000 people"
   },
   {
-    "Greater Geelong region": "Unemployment: 5.3%",
-    "King County": "Unemployment: 2.3%"
+    "Greater Geelong region": "Unemployment: <strong>5.3%</strong>",
+    "King County": "Unemployment: <strong>2.3%</strong>"
   },
   {
-    "Greater Geelong region": "Median rents: Up 44% (2010-2019)",
-    "King County": "Median rents: Up 47% (2010-2019)"
+    "Greater Geelong region": "Median rents: Up <strong>44%</strong> (2010-2019)",
+    "King County": "Median rents: Up <strong>47%</strong> (2010-2019)"
   }
 ]
