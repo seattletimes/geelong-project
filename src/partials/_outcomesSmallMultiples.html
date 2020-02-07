@@ -62,7 +62,7 @@
 					</g>
 					<% if (cat === "3 pilot schools") { %>
 						<g class="annotation" transform="translate(<%= margin.left %>, 0)">
-							<line x1="<%= dropouts_xScale('’13') - 2 %>" y1="<%= margin.top - 5 %>" x2="<%= dropouts_xScale('’13') - 2 %>" y2="100" stroke="#111111"></line>
+							<line x1="<%= dropouts_xScale('’13') - 2 %>" y1="<%= margin.top - 5 %>" x2="<%= dropouts_xScale('’13') - 2 %>" y2="<%= height + margin.top %>" stroke="#111111"></line>
 							<text x="<%= dropouts_xScale('’13') - 30 %>" y="17" class="graphic-text graphic-text--small">Geelong Project starts</text>
 						</g>
 					<% } %>
@@ -95,7 +95,7 @@
 					</g>
 					<% if (cat === "12–18 yrs") { %>
 						<g class="annotation" transform="translate(<%= margin.left %>, 0)">
-							<line x1="<%= homelessness_xScale('’13') - 2.5 %>" y1="<%= margin.top - 5 %>" x2="<%= homelessness_xScale('’13') - 2.5 %>" y2="100" stroke="#111111"></line>
+							<line x1="<%= homelessness_xScale('’13') - 2.5 %>" y1="<%= margin.top - 5 %>" x2="<%= homelessness_xScale('’13') - 2.5 %>" y2="<%= height + margin.top %>" stroke="#111111"></line>
 							<text x="<%= homelessness_xScale('’13') - 30 %>" y="17" class="graphic-text graphic-text--small">Geelong Project starts</text>
 						</g>
 					<% } %>
