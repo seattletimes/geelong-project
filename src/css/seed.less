@@ -126,6 +126,27 @@ h2, h3, .byline, .body-text, .publish-date, .figure--inline {
 	}
 }
 
+.graphic-notes-container {
+	margin-top: 15px;
+	margin-bottom: 10px;
+	&::after {
+		clear: both;
+		content: "";
+		display: block;
+	}
+}
+
+.data-note, .data-source, .art-credit {
+	margin: 0;
+}
+
+.data-note {
+  color: @df-middle-gray;
+  font-family: @df-sans;
+  font-size: 14px;
+  font-style: italic;
+}
+
 .figure--inline, .figure--full {
 	img {
 		width: 100%;
@@ -432,6 +453,9 @@ h3 {
 }
 .red {
 	color: darken(@geelong, 15%);
+}
+.answer-text {
+	font-size: 16px;
 }
 .answer-list {
 	font-size: 16px;

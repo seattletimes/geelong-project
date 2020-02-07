@@ -2,7 +2,7 @@ intro_file: topvideo_LOOP.mp4
 
 label: Education Lab
 h1: Small steps that add up
-h2: The Geelong Project, named for a Australian seaside town, aims to steer kids away from homelessness and dropping out before their situation becomes a crisis.
+h2: Australia's Geelong Project steers students away from homelessness and dropping out before their situation becomes a crisis. It all starts with a survey.
 byline: Story by <a href="https://www.seattletimes.com/author/neal-morton/">Neal Morton</a> | Videos by <a href="https://www.seattletimes.com/author/lauren-frohne/">Lauren Frohne</a> | Photos by <a href="https://www.seattletimes.com/author/ellen-banner/">Ellen M. Banner</a>
 date: Feb. 9, 2020 at 6:00 am
 
@@ -26,7 +26,7 @@ Like Seattle, this port city has struggled to absorb new workers and residents. 
 
 But there’s another, less-gleaming side.
 
-Twice a week, Hodgson drives past a shuttered Ford factory and into Northern Bay, <a href="https://www.abc.net.au/news/2018-06-05/geelong-northern-bay-college-asks-community-to-sponsor-a-student/9812670">a neighborhood</a> identified as one of Australia’s most disadvantaged. The program worker meets with dozens of students at Northern Bay College, a relatively diverse campus serving students between grades 9 and 12 that became an early adopter in a regional effort to keep young people off the streets and in school.
+Twice a week, Hodgson drives past a shuttered Ford factory and into Corio, <a href="https://www.abc.net.au/news/2018-06-05/geelong-northern-bay-college-asks-community-to-sponsor-a-student/9812670">a neighborhood</a> identified as one of Australia’s most disadvantaged. The program worker meets with dozens of students at Northern Bay College, a relatively diverse campus serving students between grades 9 and 12 that became an early adopter in a regional effort to keep young people off the streets and in school.
 []
 
 {.comparison}
@@ -72,18 +72,15 @@ On a recent visit to Geelong, a bayside town of <a href="https://itt.abs.gov.au/
 []
 
 {.figure}
-class: figure--inline
+class: diptych
+[.files]
 file: Geelong_Construction_neighborhood
 caption: A housing development is being built south of downtown Geelong, Australia. Many people are moving from other areas of Australia to Geelong because it is less expensive and there are job opportunities, so construction is booming. But the shortage of housing is also contributing to a growing homeless problem.
-{}
-  
-
-
-{.figure}
-class: figure--inline
 file: Geelong_street_scene
 caption: Downtown Geelong, Australia, has a bustling shopping and restaurant district.
+[]
 {}
+  
   
 
 
@@ -164,27 +161,24 @@ After the survey, a team from a local youth agency interviews students through a
 
 The lowest level prompts occasional check-ins and group sessions on bullying, domestic violence and self-esteem. Students at the top tier get paired with program workers like Hodgson, who meet them weekly and find the existing services — rental assistance, therapy, tutors — to keep them off the streets and in school.
 
-“It’s a bespoke response to your individual need,” said <a href="http://www.northernbaycollege.vic.edu.au/goldsworthy/index">Northern Bay</a> principal Ken Massari, who welcomed The Geelong Project to his campus six years ago.
+“It’s a bespoke response to your individual need,” said <a href="http://www.northernbaycollege.vic.edu.au/goldsworthy/index">Northern Bay</a> principal Ken Massari, who welcomed The Geelong Project to his campus seven years ago.
 []
 
 {.figure}
-class: figure--inline
+class: diptych
+[.files]
 file: Geelong_NGeelongSecCol_office
 caption: Amber Gibson, left, an early-intervention worker, works with Tina Doyle, a "well-being team" leader at North Geelong Secondary College in Geelong, Australia.
-{}
-  
-
-
-{.figure}
-class: figure--inline
 file: Geelong_NGeelongSecCol_diversity
 caption: Students at Australia's North Geelong Secondary College wear apparel from their home countries as they march in a parade as part of a multicultural festival.
+[]
 {}
+  
   
 
 
 [.+text]
-A graduate of Northern Bay himself, Massari shared a history lesson of the Northern Bay neighborhood: When the Ford plant opened after World War I, veterans streamed into the sleepy tourist town for work in Geelong’s growing industrial hub. Families, including his, could afford new homes close to Corio Bay — which the local Aboriginal people <a href="https://www.britannica.com/place/Geelong">called “Jillong.”</a>
+A graduate of Northern Bay himself, Massari shared a history lesson of the surrounding neighborhood: When the Ford plant opened after World War I, veterans streamed into the sleepy tourist town for work in Geelong’s growing industrial hub. Families, including his, could afford new homes close to Corio Bay — which the local Aboriginal people <a href="https://www.britannica.com/place/Geelong">called “Jillong.”</a>
 
 Today, many refugees and asylum-seekers live in those homes. And the children they send to school, Massari said, often carry generational poverty and trauma to class. So too with Northern Bay’s 150 or so Aboriginal students.
 
@@ -193,8 +187,8 @@ Today, many refugees and asylum-seekers live in those homes. And the children th
 
 {.figure}
 class: figure--full
-file: Geelong_students_foosball
-caption: Emma McKie, left, an early-intervention intern, plays a game with Northern Bay College students. During a class outing, students ate, played games and had discussions.
+file: Geelong_students_bullying
+caption: Emma McKie, an early-intervention response intern, speaks to Northern Bay College students and counselors about bullying.
 {}
   
 
@@ -355,8 +349,8 @@ Seattle Public Schools was initially slated to join. At the time, School Board m
 hed: The Geelong Project: What schools ask students
 chatter: The 93-question survey asks students about their home life, experience at school and well-being. Here’s a sample of the questions.
 partial: surveyQuestions
-source: Note: The remaining questions asked for basic biographical information.
-sources: Australian Index of Adolescent Development, Seattle Times analysis
+note: Note: The remaining questions asked for basic biographical information.
+source: Sources: Australian Index of Adolescent Development, Seattle Times analysis
 {}
 
 [.+text]

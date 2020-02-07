@@ -41,8 +41,13 @@
             <h3 class="graphic-hed"><%= s.value.hed %></h3>
             <p class="graphic-text"><%= s.value.chatter %></p>
             <%= t.include(path) %>
-            <p class="data-source"><%= s.value.source %></p>
-            <p class="art-credit">Hilary Fung and Neal Morton / The Seattle Times</p>
+            <div class="graphic-notes-container">
+              <% if (s.value.note) { %>
+                <p class="data-note"><%= s.value.note %></p>
+              <% } %>
+              <p class="data-source"><%= s.value.source %></p>
+              <p class="art-credit">Hilary Fung and Neal Morton / The Seattle Times</p>
+            </div>
           </div>
         <% } else if (s.type === "comparison") { %>
           <div class="sidebar">
