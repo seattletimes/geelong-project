@@ -1,8 +1,8 @@
 intro_file: topvideo_LOOP.mp4
 
-h1: An ounce of prevention for at-risk students
+h1: Small steps add up for at-risk students
 h2: The Geelong Project, named for a Australian seaside town, aims to steer kids away from homelessness and dropping out before their situation becomes a crisis.
-byline: Story by Neal Morton | Videos by Lauren Frohne | Photos by Ellen M. Banner
+byline: Story by <a href="https://www.seattletimes.com/author/neal-morton/">Neal Morton</a> | Videos by <a href="https://www.seattletimes.com/author/lauren-frohne/">Lauren Frohne</a> | Photos by <a href="https://www.seattletimes.com/author/ellen-banner/">Ellen M. Banner</a>
 date: Feb. 9, 2020 at 6:00 am
 
 [+sections]
@@ -59,13 +59,15 @@ The simplicity is deceptive — especially given the urgency of addressing homel
 {.looper}
 class: figure--full
 file: scenesetter_LOOP.mp4
-caption: Geelong, a port city of about 250,000, has struggled to absorb new workers and residents, many of whom are coming from nearby Melbourne. The city hugs Corio Bay where the “Geelong bollards” dot the waterfront and represent aspects of the city’s history and culture. The figures are made by artist Jan Mitchell from reclaimed timber pier pylons. 
+caption: Geelong, a port city of about 250,000, has struggled to absorb new workers and residents, many of whom are coming from nearby Melbourne.
 {}
 
 h3: “Not a quick fix”
 
 [.+text]
 In Seattle, where images of needles and tents have come to symbolize the region’s stark inequality, the debate around homelessness often focuses on housing. Some call for increasing police enforcement to clear encampments.
+
+On a recent visit to Geelong, a bayside town of <a href="https://itt.abs.gov.au/itt/r.jsp?RegionSummary&amp;region=22750&amp;dataset=ABS_REGIONAL_LGA2018&amp;geoconcept=LGA_2018&amp;maplayerid=LGA2018&amp;measure=MEASURE&amp;datasetASGS=ABS_REGIONAL_ASGS2016&amp;datasetLGA=ABS_REGIONAL_LGA2018&amp;regionLGA=LGA_2018&amp;regionASGS=ASGS_2016">about 250,000</a> where <a href="https://www.rdv.vic.gov.au/information-portal/regional-snapshot?geographyNames=Greater+Geelong+%28C%29%2CVictoria&amp;geographyType=">many work</a> in health care, manufacturing or retail, the songs of Australia’s native birds echoed through streets that seemed clear of “rough sleepers,” as they’re known here, over the course of two weeks. City parks — which families filled during a public holiday for a horse race — also appeared deserted overnight.
 []
 
 {.figure}
@@ -76,9 +78,15 @@ caption: A housing development is being built south of downtown Geelong, Austral
   
 
 
-[.+text]
-On a recent visit to Geelong, a bayside town of <a href="https://itt.abs.gov.au/itt/r.jsp?RegionSummary&amp;region=22750&amp;dataset=ABS_REGIONAL_LGA2018&amp;geoconcept=LGA_2018&amp;maplayerid=LGA2018&amp;measure=MEASURE&amp;datasetASGS=ABS_REGIONAL_ASGS2016&amp;datasetLGA=ABS_REGIONAL_LGA2018&amp;regionLGA=LGA_2018&amp;regionASGS=ASGS_2016">about 250,000</a> where <a href="https://www.rdv.vic.gov.au/information-portal/regional-snapshot?geographyNames=Greater+Geelong+%28C%29%2CVictoria&amp;geographyType=">many work</a> in health care, manufacturing or retail, the songs of Australia’s native birds echoed through streets that seemed clear of “rough sleepers,” as they’re known here, over the course of two weeks. City parks — which families filled during a public holiday for a horse race — also appeared deserted overnight.
+{.figure}
+class: figure--inline
+file: Geelong_street_scene
+caption: Downtown Geelong, Australia, has a bustling shopping and restaurant district.
+{}
+  
 
+
+[.+text]
 Few residents were aware of the Geelong Project — a program that, when successful, prevents the type of homelessness that Seattle’s used to seeing. It costs about $275,000 to $350,000 (U.S.) annually.
 
 Since 2013, the number of youth entering Geelong’s homeless system has been sliced nearly in half. And dropouts have also declined, by 20% as of 2018.
@@ -88,7 +96,7 @@ Since 2013, the number of youth entering Geelong’s homeless system has been sl
 hed: Early outcomes of The Geelong Project
 chatter: Since 2013, the number of dropouts — or early leavers, as they’re known in Australia — has fallen at the three schools where The Geelong Project launched that year. The city saw a steeper decline in the number of young people in the target age range (12-18 years) entering Geelong’s homeless system.
 partial: outcomesSmallMultiples
-source: Source: David MacKenzie
+source: Source: David MacKenzie, University of South Australia
 {}
 
 [.+text]
@@ -185,7 +193,7 @@ Today, many refugees and asylum-seekers live in those homes. And the children th
 {.figure}
 class: figure--full
 file: Geelong_students_foosball
-caption: Emma McKie, left, an early-intervention intern, plays a game with Northern Bay students. During a class outing, students ate, played games and had discussions.
+caption: Emma McKie, left, an early-intervention intern, plays a game with Northern Bay College students. During a class outing, students ate, played games and had discussions.
 {}
   
 
@@ -237,7 +245,7 @@ The student indulged a brief smile, grabbed her backpack and headed back to clas
 {.looper}
 class: figure--full
 file: wellbeing_LOOP.mp4
-caption: At Northern Bay College’s Goldsworthy campus, students are encouraged to visit the well-being center staffed by a team of social workers and counselors that address a range of issues affecting their day-to-day lives. The school’s principal, Ken Massari, welcomed The Geelong Project to the school six years ago as an additional resource.  
+caption: At Northern Bay College’s Goldsworthy campus, students are encouraged to visit the well-being center staffed by a team of social workers and counselors that address a range of issues affecting their day-to-day lives. 
 {}
 
 h3: A foundation of support
@@ -255,7 +263,7 @@ So he started working in schools and oversaw what’s known in Australia as a we
 []
 
 {.graphic}
-hed: Support staff in Geelong and King County schools
+hed: Paying for school support staff
 chatter: In Geelong, schools fill state-funded well-being teams with social workers, counselors, doctors, nurses and first-aid workers. Washington, meanwhile, provides schools with less funding for most well-being positions.
 partial: supportStaff
 source: Source: Office of Superintendent of Public Instruction
@@ -304,7 +312,7 @@ file: sunset_LOOP.mp4
 caption: Geelong's Eastern Beach public swimming pool, surrounded by a wooden walkway, is a popular recreation area at the edge of Corio Bay. It is adjacent to downtown Geelong, where the city’s first high-rise towers are being built, a signal of rapid population growth. 
 {}
 
-h3: Caveats
+h3: What could get lost in translation?
 
 [.+text]
 Unlike the staff at Northern Bay, school administrators who recently started working with The Geelong Project can’t yet pinpoint ways in which it has been a game-changer.
@@ -320,7 +328,17 @@ Without the well-being teams and that foundation of support, could The Geelong P
 “It’s not copy and paste,” said Matt Morton, a research fellow with <a href="https://www.chapinhall.org/project/leading-on-youth-homelessness-prevention/">Chapin Hall</a> at the University of Chicago. He’s leading the U.S. pilots of what will be called <a href="https://www.hopkinsschools.org/district-news/news/hopkins-public-schools-participate-groundbreaking-homelessness-prevention-project">the Upstream Project</a> and cautioned against scrapping the model because it may not reach everyone.
 
 “We try to make very clear that this isn’t a silver bullet,” Morton said, adding that he’s heartened to see the city and county taking strides to help people and youth in particular who are homeless.
+[]
 
+{.figure}
+class: figure--full
+file: Geelong_SkylineAtDusk
+caption: Geelong, Australia, is a port city of about 250,000. The popular Eastern Beach public swimming area is surrounded by a two-level, shark-proof promenade.
+{}
+  
+
+
+[.+text]
 In contrast to Australian schools, the U.S. has more bureaucracy.
 
 In King County, school districts have central offices and elected school boards. In Australia, there’s just the state and the principals, making it easier to act without prolonged debate and administrative hurdles.
@@ -333,10 +351,10 @@ Emails obtained by The Seattle Times show DeWolf’s enthusiasm for the pilot pr
 []
 
 {.graphic}
-hed: Student survey
-chatter: The 93-question Geelong Project survey asks students about their home life, experience at school and wellbeing. Here’s a sample of the questions.
+hed: The Geelong Project: What schools ask students
+chatter: The 93-question survey asks students about their home life, experience at school and well-being. Here’s a sample of the questions.
 partial: surveyQuestions
-source: Note: The remaining questions asked for basic biographical information. Source: Australian Index of Adolescent Development, Seattle Times analysis
+source: Note: The remaining questions asked for basic biographical information. Sources: Australian Index of Adolescent Development, Seattle Times analysis
 {}
 
 [.+text]
@@ -361,24 +379,8 @@ Perhaps the biggest challenge is time.
 
 {.figure}
 class: figure--full
-file: Geelong_SkylineAtDusk
-caption: Geelong, Australia, is a port city of about 250,000. The popular Eastern Beach public swimming area is surrounded by a two-level, shark-proof promenade.
-{}
-  
-
-
-{.figure}
-class: figure--inline
-file: Geelong_street_scene
-caption: Downtown Geelong, Australia, has a bustling shopping and restaurant district.
-{}
-  
-
-
-{.figure}
-class: figure--inline
 file: Geelong_walking_to_project
-caption: Students from Northern Bay in Geelong, Australia, walk to a nearby center for relaxation and discussions as part of The Geelong Project.
+caption: Students from Northern Bay College in Geelong, Australia, walk to a nearby center for relaxation and discussions as part of The Geelong Project.
 {}
   
 
