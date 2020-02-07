@@ -72,7 +72,7 @@ On a recent visit to Geelong, a bayside town of <a href="https://itt.abs.gov.au/
 []
 
 {.figure}
-class: diptych
+class: diptych diptych--city
 [.files]
 file: Geelong_Construction_neighborhood
 caption: A housing development is being built south of downtown Geelong, Australia. Many people are moving from other areas of Australia to Geelong because it is less expensive and there are job opportunities, so construction is booming. But the shortage of housing is also contributing to a growing homeless problem.
@@ -165,7 +165,7 @@ The lowest level prompts occasional check-ins and group sessions on bullying, do
 []
 
 {.figure}
-class: diptych
+class: diptych diptych--school
 [.files]
 file: Geelong_NGeelongSecCol_office
 caption: Amber Gibson, left, an early-intervention worker, works with Tina Doyle, a "well-being team" leader at North Geelong Secondary College in Geelong, Australia.

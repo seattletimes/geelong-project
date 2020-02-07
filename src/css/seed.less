@@ -8,7 +8,7 @@
 @pink: #ffdce4;
 
 @keyframes fadein {
-  from { opacity: 0; }
+  from { opacity: 0; }t
   to   { opacity: 1; }
 }
 @-moz-keyframes fadein {
@@ -107,8 +107,8 @@ h2, h3, .byline, .body-text, .publish-date, .figure--inline {
 }
 
 .figure--full {
-	margin-top: 100px;
-	margin-bottom: 70px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	max-width: 1280px;
 	@media (max-width: 1280px) {
 		margin-left: 0;
@@ -117,6 +117,10 @@ h2, h3, .byline, .body-text, .publish-date, .figure--inline {
 	@media (min-width: 1280px) {
 		margin-left: auto;
 		margin-right: auto;
+	}
+	@media @tablet-up {
+		margin-top: 70px;
+		margin-bottom: 40px;
 	}
 	.caption {
 		@media (max-width: 1300px) {
@@ -147,14 +151,55 @@ h2, h3, .byline, .body-text, .publish-date, .figure--inline {
   font-style: italic;
 }
 
-.figure--inline, .figure--full {
+.figure--inline, .figure--full, .diptych {
 	img {
 		width: 100%;
 	}
 }
 
+.diptych {
+	margin: 30px auto;
+	max-width: 1280px; 
+	@media @tablet {
+		padding-left: 10px;
+		padding-right: 10px;
+		div:first-child {
+			margin-bottom: 20px;
+		}
+	}
+	@media @desktop-up {
+		display: flex;
+		div:first-child {
+			margin-right: 5px;
+		}
+		div:last-child {
+			margin-left: 5px;
+		}
+	}
+}
+.diptych--city {
+	@media @desktop-up {
+		div:first-child {
+			width: 55.02%;
+		}
+		div:last-child {
+			width: 44.98%;
+		}
+	}
+}
+.diptych--school {
+	@media @desktop-up {
+		div:first-child {
+			width: 48.9%;
+		}
+		div:last-child {
+			width: 51.1%;
+		}
+	}
+}
+
 h3 {
-	font-size: 1.4em;
+	font-size: 1.6em;
 }
 
 .flexbox {

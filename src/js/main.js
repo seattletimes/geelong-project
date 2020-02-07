@@ -26,49 +26,6 @@ function animateHero() {
 
 animateHero();
 
-///////////////// SCHOOL STAFF PIE CHARTS /////////////////
-
-var data = require("../../data/support-staff.sheet.json"),
-mapped_data = data.map(function(d) {
-	if (d.percentage > 100) {
-		var slice_data = [d.percentage - 300, 100 - (d.percentage - 300)];
-	} else {
-		var slice_data = [d.percentage, 100 - d.percentage];
-	}
-	return {
-		pie_data: slice_data,
-		text: d.text
-	}
-});
-
-var color = d3.scaleOrdinal(["#276baf", "#cccccc"]);
-var pies = Array.from(document.querySelectorAll(".pie-chart"));
-
-pies.forEach(function(pie, i) {
-	var svg = d3.select(pie)
-		.attr("width", "60")
-		.attr("height", "60"),
-		g = svg.append("g").attr("transform", "translate(30, 30)");
-	var data = mapped_data[i].pie_data;
-  var pie = d3.pie()
-  	.sort(null);
-  var arc = d3.arc()
-    .innerRadius(0)
-    .outerRadius(30);
-
-  var arcs = g.selectAll("arc")
-    .data(pie(data))
-    .enter()
-    .append("g")
-    .attr("class", "arc");
-
-	 arcs.append("path")
-	  .attr("fill", function(d, i) {
-	  	return color(i);
-	  })
-	  .attr("d", arc);
-});
-
 // lazy load images and loopers
 var lazyImages = [].slice.call(document.querySelectorAll(".lazy"));
 
@@ -124,3 +81,45 @@ if ("IntersectionObserver" in window) {
 	  window.addEventListener("orientationchange", lazyLoad);
 	});
 }
+
+// make school staff pie charts
+var data = require("../../data/support-staff.sheet.json"),
+mapped_data = data.map(function(d) {
+	if (d.percentage > 100) {
+		var slice_data = [d.percentage - 300, 100 - (d.percentage - 300)];
+	} else {
+		var slice_data = [d.percentage, 100 - d.percentage];
+	}
+	return {
+		pie_data: slice_data,
+		text: d.text
+	}
+});
+
+var color = d3.scaleOrdinal(["#276baf", "#cccccc"]);
+var pies = Array.from(document.querySelectorAll(".pie-chart"));
+
+pies.forEach(function(pie, i) {
+	var svg = d3.select(pie)
+		.attr("width", "60")
+		.attr("height", "60"),
+		g = svg.append("g").attr("transform", "translate(30, 30)");
+	var data = mapped_data[i].pie_data;
+  var pie = d3.pie()
+  	.sort(null);
+  var arc = d3.arc()
+    .innerRadius(0)
+    .outerRadius(30);
+
+  var arcs = g.selectAll("arc")
+    .data(pie(data))
+    .enter()
+    .append("g")
+    .attr("class", "arc");
+
+	 arcs.append("path")
+	  .attr("fill", function(d, i) {
+	  	return color(i);
+	  })
+	  .attr("d", arc);
+});

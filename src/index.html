@@ -61,9 +61,18 @@
             <% }) %>
           </div>
         <% } else if (s.type === "figure") { %>
-          <figure class="article__figure <%= s.value.class %>">
-            <img class="lazy" src="./assets/<%= s.value.file %>-ll.JPG" data-src="./assets/<%= s.value.file %>.JPG" alt="<%= s.value.caption %>">
-            <figcaption class="caption"><%= s.value.caption %></figcaption>
+          <figure class="<%= s.value.class %>">
+            <% if (s.value.class === "figure--full" || s.value.class === "figure--inline") { %>
+              <img class="lazy" src="./assets/<%= s.value.file %>-ll.JPG" data-src="./assets/<%= s.value.file %>.JPG" alt="<%= s.value.caption %>">
+              <figcaption class="caption"><%= s.value.caption %></figcaption>
+            <% } else if (s.value.class.includes("diptych")) { %>
+              <% s.value.files.forEach(function(f) { %>
+                <div>
+                  <img class="lazy" src="./assets/<%= f.file %>-ll.JPG" data-src="./assets/<%= f.file %>.JPG" alt="<%= f.caption %>">
+                  <figcaption class="caption"><%= f.caption %></figcaption>
+                </div>
+              <% }) %>
+            <% } %>
           </figure>
         <% } else if (s.type === "looper") { %>
           <figure class="article__figure <%= s.value.class %>">
