@@ -20,12 +20,13 @@
           <video class="hero__video" src="./assets/<%= doc.intro_file %>" autoplay="" playsinline="" loop="" muted=""></video>
         </figure>
         <div class="hero__text">
+          <p>Education Lab</p>
           <h1><%= doc.h1 %></h1>
+          <h2><%= doc.h2 %></h2>
         </div>
       </div>
-
-      <h2 id="beginning"><%= doc.h2 %></h2>
-      <p class="byline"><%= doc.byline %></p>
+      
+      <p class="byline" id="beginning"><%= doc.byline %></p>
       <p class="publish-date"><%= doc.date %></p>
 
       <% doc.sections.forEach(function(s) { %>
