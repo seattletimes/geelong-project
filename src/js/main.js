@@ -24,7 +24,30 @@ function animateHero() {
 	});
 }
 
+// swap horizontal and vertical hero videos
+var hero = document.querySelector(".hero"),
+	hero_video = document.querySelector(".hero__video");
+
+// change hero source video
+function changeHeroVideo() {
+
+	if (window.innerWidth < window.innerHeight * 1.3) {
+		hero.classList.remove("horizontal");
+		hero.classList.add("vertical");
+
+		hero_video.src = "./assets/topvideo_LOOP-Vertical.mp4";
+	} else {
+		hero.classList.remove("vertical");
+		hero.classList.add("horizontal");
+
+		hero_video.src = "./assets/topvideo_LOOP.mp4";
+	}
+}
+
+changeHeroVideo();
 animateHero();
+window.addEventListener("resize", changeHeroVideo);
+window.addEventListener("resize", animateHero);
 
 // lazy load images and loopers
 var lazyImages = [].slice.call(document.querySelectorAll(".lazy"));

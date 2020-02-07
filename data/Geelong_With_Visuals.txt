@@ -2,7 +2,7 @@ intro_file: topvideo_LOOP.mp4
 
 label: Education Lab
 h1: Small steps that add up
-h2: Australia's Geelong Project steers students away from homelessness and dropping out before their situation becomes a crisis. It all starts with a survey.
+h2: Australia’s Geelong Project steers students away from homelessness and dropping out before their situation becomes a crisis. It all starts with a survey.
 byline: Story by <a href="https://www.seattletimes.com/author/neal-morton/">Neal Morton</a> | Videos by <a href="https://www.seattletimes.com/author/lauren-frohne/">Lauren Frohne</a> | Photos by <a href="https://www.seattletimes.com/author/ellen-banner/">Ellen M. Banner</a>
 date: Feb. 9, 2020 at 6:00 am
 
@@ -16,7 +16,7 @@ Teachers and translators will help explain the questions, some of them deeply pe
 partial: locatorMap
 
 [.+text]
-The top of the survey acknowledges how intrusive it may feel: "Your answers to various questions will be treated in strict confidence," the bold, black print states against a pink background. "A few questions might seem a little personal, but please have the confidence to answer honestly."
+The top of the survey acknowledges how intrusive it may feel: “Your answers to various questions will be treated in strict confidence,” the bold, black print states against a pink background. “A few questions might seem a little personal, but please have the confidence to answer honestly.”
 
 There’s a reason for the prying queries: prevention, a chance to steer young people away from dropping out of school or becoming homeless.
 
@@ -85,7 +85,7 @@ caption: Downtown Geelong, Australia, has a bustling shopping and restaurant dis
 
 
 [.+text]
-Few residents were aware of the Geelong Project — a program that, when successful, prevents the type of homelessness that Seattle’s used to seeing. It costs about $275,000 to $350,000 (U.S.) annually.
+Few residents were aware of The Geelong Project — a program that, when successful, prevents the type of homelessness that Seattle’s used to seeing. It costs about $275,000 to $350,000 (U.S.) annually.
 
 Since 2013, the number of youth entering Geelong’s homeless system has been sliced nearly in half. And dropouts have also declined, by 20% as of 2018.
 []
@@ -100,11 +100,11 @@ source: Source: David MacKenzie, University of South Australia
 [.+text]
 “The thing with early intervention: It’s not a quick fix. It’s something that is quite slow,” said Sandy Meessen, team leader of The Geelong Project. “It’s taken six years for us to see that.”
 
-Those results are still early. The Victoria state education department <a href="https://www.bcyf.org.au/barwon-child-youth-family-welcomes-2-8-million-commitment-for-the-geelong-project/">paid to expand</a> the Geelong Project to four new schools last year, and has commissioned an independent evaluation. But the initial outcomes inspired the program’s spread across Australia; to <a href="https://www.raisingtheroof.org/the-upstream-project-pilot-phase-updates/">Ontario, Canada</a>; and now, <a href="https://www.hopkinsschools.org/district-news/news/hopkins-public-schools-participate-groundbreaking-homelessness-prevention-project">the U.S.</a>
+Those results are still early. The Victoria state education department <a href="https://www.bcyf.org.au/barwon-child-youth-family-welcomes-2-8-million-commitment-for-the-geelong-project/">paid to expand</a> The Geelong Project to four new schools last year, and has commissioned an independent evaluation. But the initial outcomes inspired the program’s spread across Australia; to <a href="https://www.raisingtheroof.org/the-upstream-project-pilot-phase-updates/">Ontario, Canada</a>; and now, <a href="https://www.hopkinsschools.org/district-news/news/hopkins-public-schools-participate-groundbreaking-homelessness-prevention-project">the U.S.</a>
 
 Still, the program has skeptics.
 
-In Geelong, some educators wonder if it duplicates their work. In King County, advocates question what relevant solutions a city as homogeneous as Geelong, where 3 in 4 residents cite English, Australian, Irish, Scottish or German ancestry, can offer a more diverse population.
+In Geelong, some educators wonder if it duplicates their work. In King County, advocates question what relevant solutions a city as <a href="https://www.seattletimes.com/education-lab/king-county-may-borrow-an-idea-from-australia-to-reduce-youth-homelessness-readers-wanted-to-know-how-much-does-it-cost/">homogeneous</a> as Geelong, where 3 in 4 residents cite English, Australian, Irish, Scottish or German ancestry, can offer a more diverse population.
 
 “I’m thrilled if the (Geelong) region has found what works for them,” said Marshaun Barber, executive director of <a href="https://www.allseattlekidshome.org/">All Seattle Kids Home</a>. She wondered how the model accounts for racial disparities in America’s housing and criminal-justice systems.
 
