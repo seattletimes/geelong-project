@@ -1,0 +1,19 @@
+<% data = grunt.data.json["stories-youth"] %>
+
+<section class="thin-div">
+  <div class="center">Don’t Miss</div>
+</section>
+
+<section class="dont-miss dont-miss--youth-homelessness">
+  <% data.forEach(function(story) { %>
+    <div class="story">
+      <div class="padded">
+        <div>
+          <a href="<%= story.link %>">
+            <%= story.hed %>
+          </a>
+        </div>
+      </div>
+    </div>
+  <% }); %>
+</section>

@@ -94,14 +94,11 @@
         <% } else if (s.type === "partial") { %>
           <% path = "partials/_" + s.value + ".html" %>
           <%= t.include(path) %>
-        <% } else if (s.type === "dont-miss") { %>
-          <% val = s.value.stories %>
-          <%= t.include("partials/_dontMiss.html", {stories: val}) %>
         <% } %>
       <% }) %>
 
       <%= t.include("partials/_credits.html") %>
-      <%= t.include("partials/_dontMiss.html", {stories: "stories-youth"}) %>
+      <%= t.include("partials/_dontMissYouthHomelessness.html") %>
       <%= t.include("partials/_comments.html") %>
       <%= t.include("partials/_navBottom.html") %>
 
