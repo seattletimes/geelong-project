@@ -31,6 +31,8 @@
       <p class="byline"><%= doc.byline %></p>
       <p class="publish-date"><%= doc.date %></p>
 
+      <%= t.include("partials/_edLab.html") %>
+      
       <% doc.sections.forEach(function(s) { %>
         <% if (s.type === "text") { %>
           <% s.value.forEach(function(p) { %>
