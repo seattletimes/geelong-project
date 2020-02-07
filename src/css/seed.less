@@ -155,14 +155,12 @@ h3 {
 
 .sidebar {
 	padding: 15px;
+	max-width: 100%;
 	width: 360px;
-	@media @tablet {
+	@media (max-width: 599px) {
 		margin: auto;
 	}
-	@media @mobile {
-		width: 300px;
-	}
-	@media @tablet-up {
+	@media (min-width: 600px) {
 		float: right;
 		margin-left: 20px;
 		margin-right: 20px;
@@ -201,18 +199,23 @@ h3 {
 }
 
 .locator-container {
-	width: 330px;
+	width: 100%;
 	padding: 15px;
-	@media @tablet {
-		margin: auto;
+	@media (max-width: 599px) {
+		img {
+			margin: auto;
+		}
+		.caption {
+			margin-left: auto;
+			margin-right: auto;
+			width: 300px;
+		}
 	}
-	@media @mobile {
-		width: 300px;
-	}
-	@media @tablet-up {
+	@media (min-width: 600px) {
 		float: right;
 		margin-left: 20px;
 		margin-right: 20px;
+		width: 330px;
 	}
 	@media (min-width: 1240px) {
 		margin-right: ~"calc(50% - 440px)";
