@@ -232,7 +232,7 @@ Hodgson steered the conversation to Mom.
 
 The young woman fidgeted as she responded, crossing her ankles back and forth. She had grown estranged from her mother, who she said wouldn’t acknowledge her father’s threats. Now, the pair was talking again, and the daughter even considered asking her mother for permission to take the art therapy Hodgson recommended.
 
-“You don’t want to leave anymore!” Hodgson exclaimed. “That’s really good. … Think how you’ve come a long way.”
+“You don’t want to leave anymore!” Hodgson exclaimed. “That’s really good … Think how you’ve come a long way.”
 
 The student indulged a brief smile, grabbed her backpack and headed back to class.
 []
@@ -259,7 +259,7 @@ So he started working in schools and oversaw what’s known in Australia as a we
 
 {.graphic}
 hed: Paying for school support staff
-chatter: In Geelong, schools fill state-funded well-being teams with social workers, counselors, doctors, nurses and first-aid workers. Washington, meanwhile, provides schools with less funding for most well-being positions.
+chatter: In Geelong, schools fill state-funded well-being teams with social workers, counselors, doctors, nurses and first-aid workers. Washington state, meanwhile, provides schools with less funding for most well-being positions.
 partial: supportStaff
 source: Source: Office of Superintendent of Public Instruction
 {}
