@@ -44,7 +44,7 @@ The idea sounds simple: Early intervention. The student surveys trigger a series
 
 {.brightcove}
 brightcove_id: 6126973456001
-caption: Confronted with rising homelessness, service providers and community leaders in Geelong developed an early intervention approach embedded in schools. The results have compelled U.S. school districts to adopt it.
+caption: Confronted with rising homelessness, service providers and community leaders in Geelong developed an early intervention approach embedded in schools. The results have compelled U.S. school districts to adopt it. (Lauren Frohne / The Seattle Times)
 {}
 
 [.+text]
