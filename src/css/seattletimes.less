@@ -296,7 +296,6 @@ nav.main-nav {
 }
 
 .dont-miss {
-  .display-flex;
   .flex-wrap(wrap);
   margin: auto;
   margin-top: 15px;
@@ -310,11 +309,11 @@ nav.main-nav {
     width: 100%;
   }
   a {
-    color: @df-dark-gray;
+    color: @df-blue;
     transition: color .1s linear;
 
     &:hover {
-      color: @df-blue;
+      color: darken(@df-blue, 10%);
     }
   }
   .small {

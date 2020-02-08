@@ -81,7 +81,8 @@
           </figure>
         <% } else if (s.type === "looper") { %>
           <figure class="article__figure <%= s.value.class %>">
-            <video src="./assets/<%= s.value.file %>" autoplay="" playsinline="" loop="" muted=""></video>
+            <video class="looper--desktop" src="./assets/<%= s.value.file %>.mp4" autoplay="" playsinline="" loop="" muted="" class=""></video>
+            <video class="looper--mobile" src="./assets/<%= s.value.file %>-Mobile.mp4" autoplay="" playsinline="" loop="" muted=""></video>
             <figcaption>
               <p class="caption"><%= s.value.caption %></p>
             </figcaption>

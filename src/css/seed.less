@@ -84,7 +84,7 @@
 	@media @tablet {
 		margin-left: 5%;
 		margin-right: 5%;
-		top: ~"calc(50% - 190px)";
+		top: ~"calc(50% - 85px)";
 		width: 90%;
 	}
 	@media @desktop-up {
@@ -136,7 +136,7 @@ h1 {
 	margin-top: 30vh;
 }
 
-h2, h3, .byline, .body-text, .publish-date, .edlab-card, .figure--inline {
+h2, h3, .byline, .body-text, .publish-date, .edlab-card, .figure--inline, .marketing--sidebar {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 680px;
@@ -189,6 +189,21 @@ h2, h3, .byline, .body-text, .publish-date, .edlab-card, .figure--inline {
 			padding-right: 10px;
 		}
 	}
+}
+.looper--desktop {
+	@media @mobile {
+		display: none;
+	}
+}
+.looper--mobile {
+	@media @tablet-up {
+		display: none;
+	}
+}
+
+.marketing--sidebar {
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 .graphic-notes-container {
@@ -326,17 +341,20 @@ h3 {
 }
 
 .dont-miss {
+	.display-flex;
+  @media @mobile {
+  	display: block;
+  }
 	margin-bottom: 50px;
   .story {
     .flex(0 0 33.33%);
-
-    @media @mobile {
-      .flex(1 1 50%)
-    }
   }
 }
 .thin-div .center--geelong {
 	width: 290px;
+}
+.dont-miss--geelong {
+	border-bottom: 1px solid @df-light-gray;
 }
 .dont-miss--youth-homelessness {
   .story {
@@ -346,10 +364,6 @@ h3 {
       .flex(1 1 50%)
     }
   }
-}
-.marketing--footer {
-	margin-top: 40px;
-	margin-bottom: 40px;
 }
 
 .graphic-text {
