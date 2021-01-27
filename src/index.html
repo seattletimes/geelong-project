@@ -90,7 +90,7 @@
         <% } else if (s.type === "brightcove") { %>
           <figure class="figure--full">
             <div class="brightcove">
-              <iframe src="//players.brightcove.net/1509317113/Nk8AFQkhe_default/index.html?videoId=<%= s.value.brightcove_id %>" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""></iframe>
+              <iframe src="//cdn.jwplayer.com/players/<%= s.value.brightcove_id %>-mRGp7S2O.html" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""></iframe>
             </div>
             <figcaption class="caption"><%= s.value.caption %></figcaption>
           </figure>
